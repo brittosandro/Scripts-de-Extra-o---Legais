@@ -1,0 +1,72 @@
+l0
+l1
+l2
+
+tem algo
+
+c1 Yes
+c2 No
+c3 No
+c4 Yes
+
+     Pegue isso daqui não
+a   a1   a   a2  a3   a4
+
+algo
+
+l3
+l4
+l5
+
+tem algo
+
+c1 Yes
+c2 Yes
+c3 Yes
+c4 Yes 
+
+algo
+
+      Pegue isso daqui
+x   x1     x     x2      x3     x4
+x   x11    x     x22     x33    x44 
+x   x111   x     x222    x333   x444
+x   x1111  x     x2222   x333   x4444  
+
+l7
+l8
+l9
+
+tem algo
+
+c1 No
+c2 Yes
+c3 Yes
+c4 No
+
+algo
+
+     Pegue isso daqui não
+a   a1   a   a2  a3   a4
+
+tem algo
+
+l10
+l11
+l12
+
+tem algo
+
+c1 Yes
+c2 Yes
+c3 Yes
+c4 Yes
+
+algo
+
+      Pegue isso daqui
+y   y1     y     y2       y3    y4
+y   y11    y     y22      y33   y44
+y   y111   y     y222     y333  y444
+y   y1111  y     y2222    y333  y4444
+

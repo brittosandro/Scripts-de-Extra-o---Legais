@@ -1,0 +1,144 @@
+Essa é alguma coisa escrita aqui
+Essa é alguma coisa escrita aqui
+Essa é alguma coisa escrita aqui
+Essa é alguma coisa escrita aqui
+Essa é alguma coisa escrita aqui
+Condicional1                Yes
+Condicional2                NO
+Condicional3                No
+Condicional4                No
+
+
+Essa é alguma coisa escrita aqui
+Essa é alguma coisa escrita aqui
+Essa é alguma coisa escrita aqui
+Essa é alguma coisa escrita aqui
+Essa é alguma coisa escrita aqui
+
+Condicional1                Yes
+Condicional2                No
+Condicional3                No
+Condicional4                Yes
+
+            Peguie isso daqui não
+d1        d2     d3      d4     d5    d6    d7
+x1       x1      x1      x1      x1     x1    x1
+y1       y1      y1      y1      y1     y1    y1
+---------------------------------------------------------------------
+
+Essa é alguma coisa escrita aqui
+Essa é alguma coisa escrita aqui
+Essa é alguma coisa escrita aqui
+Essa é alguma coisa escrita aqui
+Essa é alguma coisa escrita aqui
+
+Condicional1                Yes
+Condicional2                Yes
+Condicional3                No
+Condicional4                Yes
+
+
+Essa é alguma coisa escrita aqui
+Essa é alguma coisa escrita aqui
+Essa é alguma coisa escrita aqui
+Essa é alguma coisa escrita aqui
+Essa é alguma coisa escrita aqui
+
+Condicional1                Yes
+Condicional2                Yes
+Condicional3                No
+Condicional4                Yes
+
+Essa é alguma coisa escrita aqui
+Essa é alguma coisa escrita aqui
+Essa é alguma coisa escrita aqui
+Essa é alguma coisa escrita aqui
+Essa é alguma coisa escrita aqui
+
+Condicional1                Yes
+Condicional2                Yes
+Condicional3                Yes
+Condicional4                Yes
+
+tem algo aqui
+tem algo aqui
+
+         Peguie isso daqui
+dado 1   dado2   dado3   dado4  dado5  dado6  dado7
+x         x1      x         x      xx      xy     xz
+y         y1      y         y      yx      yy     yz
+---------------------------------------------------------------------
+
+Essa é alguma coisa escrita aqui
+Essa é alguma coisa escrita aqui
+Essa é alguma coisa escrita aqui
+Essa é alguma coisa escrita aqui
+Essa é alguma coisa escrita aqui
+
+Condicional1                Yes
+Condicional2                No
+Condicional3                No
+Condicional4                No
+
+Essa é alguma coisa escrita aqui
+Essa é alguma coisa escrita aqui
+Essa é alguma coisa escrita aqui
+Essa é alguma coisa escrita aqui
+Essa é alguma coisa escrita aqui
+
+Condicional1                Yes
+Condicional2                Yes
+Condicional3                No
+Condicional4                No
+
+
+Essa é alguma coisa escrita aqui
+Essa é alguma coisa escrita aqui
+Essa é alguma coisa escrita aqui
+Essa é alguma coisa escrita aqui
+Essa é alguma coisa escrita aqui
+
+Condicional1                Yes
+Condicional2                Yes
+Condicional3                Yes
+Condicional4                Yes
+
+tem algo aqui
+tem algo aqui
+
+        Peguie isso daqui
+info1   info2   info3   info4  info5  info6  info7
+w        w1        w       w      wx      wy     wz
+t        t1        t       t      tx      ty     tz
+---------------------------------------------------------------------
+
+Essa é alguma coisa escrita aqui
+Essa é alguma coisa escrita aqui
+Essa é alguma coisa escrita aqui
+Essa é alguma coisa escrita aqui
+Essa é alguma coisa escrita aqui
+
+Condicional1                Yes
+Condicional2                No
+Condicional3                No
+Condicional4                Yes
+
+tem algo aqui
+tem algo aqui
+
+Essa é alguma coisa escrita aqui
+Essa é alguma coisa escrita aqui
+Essa é alguma coisa escrita aqui
+Essa é alguma coisa escrita aqui
+Essa é alguma coisa escrita aqui
+
+Condicional1                Yes
+Condicional2                Yes
+Condicional3                No
+Condicional4                Yes
+
+        Peguie isso daqui não
+cb1   cb2   cb3   cb4  cb5   cb6    cb7
+a      a     a     a    a      a      a
+1t     1t    1t    1t   1t     1t     1t
+---------------------------------------------------------------------
