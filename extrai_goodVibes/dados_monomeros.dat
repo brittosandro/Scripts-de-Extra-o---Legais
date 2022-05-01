@@ -1,14 +1,11 @@
-   GoodVibes v3.0.1 2022/04/29 17:52:29
+   GoodVibes v3.0.1 2022/05/01 17:06:30
    REF: Luchini, G.; Alegre-Requena J. V.; Guan, Y.; Funes-Ardoiz, I.; Paton, R. S. (2019).
         GoodVibes: GoodVibes 3.0.1 http://doi.org/10.5281/zenodo.595246
    Requested: --qs truhlar --qh --ti 250,500,50 --dat -c 1.0 --cpu 
 
    Concentration = 1.0 mol/l
    All energetic values below shown in Hartree unless otherwise specified.
-x  Caution! Different levels of theory found: 
-        -M062X/6-31G(d,p): o_ACR_acetonitrile.log, o_ACR_dichloromethane.log, o_ACR_dimethylsulfoxide.log, o_ACR_tetrahydrofuran.log, o_IA_acetonitrile.log, o_IA_dichloromethane.log, o_IA_dimethylsulfoxide.log, o_IA_tetrahydrofuran.log, o_MAA_acetonitrile.log, o_MAA_dichloromethane.log, o_MAA_dimethylsulfoxide.log, o_MAA_tetrahydrofuran.log, o_VP_acetonitrile.log, o_VP_dimethylsulfoxide.log, o_VP_tetrahydrofuran.log
-        -none/none: o_VP_dichloromethane.log
-   Using vibrational scale factor 1.0: differing levels of theory detected.
+   Using vibrational scale factor 1.0 for M062X/6-31G(d,p) level of theory
 
    Entropic quasi-harmonic treatment: frequency cut-off value of 100.0 wavenumbers will be applied.
    QS = Truhlar: Using an RRHO treatment where low frequencies are adjusted to the cut-off value.
@@ -19,7 +16,6 @@ x  Caution! Different levels of theory found:
    QH = Head-Gordon: Using an RRHO treatement with an approximation term for vibrational energy.
    REF: Li, Y.; Gomes, J.; Sharada, S. M.; Bell, A. T.; Head-Gordon, M. J. Phys. Chem. C 2015, 119, 1840-1850
 
-x  Warning! Error termination found in file o_VP_dichloromethane.log. Thermochemical data will not be calculated for this file.
 
    Variable-Temperature analysis of the enthalpy, entropy and the entropy at a constant pressure between
    T init:  250.0,  T final:  500.0,  T interval: 50.0
@@ -140,6 +136,15 @@ o  o_VP_acetonitrile                               350.0              -325.41687
 o  o_VP_acetonitrile                               400.0              -325.414216   -325.414917   0.058613   0.057015   -325.472830   -325.471932
 o  o_VP_acetonitrile                               450.0              -325.411245   -325.412030   0.069087   0.067287   -325.480332   -325.479318
 o  o_VP_acetonitrile                               500.0              -325.407981   -325.408852   0.080199   0.078198   -325.488180   -325.487050
+   **********************************************************************************************************************************************
+
+   **********************************************************************************************************************************************
+o  o_VP_dichloromethane                            250.0              -325.420328   -325.420774   0.031698   0.030246   -325.452026   -325.451019
+o  o_VP_dichloromethane                            300.0              -325.418359   -325.418888   0.040186   0.038439   -325.458545   -325.457328
+o  o_VP_dichloromethane                            350.0              -325.416046   -325.416659   0.049375   0.047334   -325.465421   -325.463994
+o  o_VP_dichloromethane                            400.0              -325.413397   -325.414094   0.059255   0.056921   -325.472651   -325.471015
+o  o_VP_dichloromethane                            450.0              -325.410430   -325.411212   0.069804   0.067177   -325.480233   -325.478389
+o  o_VP_dichloromethane                            500.0              -325.407171   -325.408038   0.080990   0.078070   -325.488161   -325.486109
    **********************************************************************************************************************************************
 
    **********************************************************************************************************************************************
