@@ -217,8 +217,14 @@ if __name__ == '__main__':
     nome_monomero = slice(2, 10)
     nome_complexo = slice(0, 23)
     temperatura = slice(47, 53)
-    entalpia = slice(66, 79)
-    entalpia_qH = slice(80, 92)
+    #entalpia = slice(66, 79)
+    #entalpia_qH = slice(80, 92)
+
+    #estou definindo o nome entalpia, entretanto a propriedade que estamos
+    #trabalhando e a energia da gibbs
+    entalpia = slice(116, 130)
+    entalpia_qH = slice(130, 142)
+
     interval_temp = np.arange(250, 501, 50)
 
     templete1 = 'CBZ'
@@ -937,6 +943,7 @@ if __name__ == '__main__':
                         entalp_qH_CBZ_tetr_3VP.append(v_entalpia_qH)
                     # fim Bloco4
 
+                    '''
                     ############################################################################
                     #
                     # Templete DCF: OBS, todos os cálculos com MAA deram errado
@@ -1269,6 +1276,7 @@ if __name__ == '__main__':
                         entalp_qH_DCF_tetr_3VP.append(v_entalpia_qH)
                     # fim Bloco4
 
+                    '''
                     ############################################################################
                     #
                     # Templete TMP
@@ -1517,7 +1525,7 @@ if __name__ == '__main__':
                         entalp_TMP_dime_3VP.append(v_entalpia)
                         entalp_qH_TMP_dime_3VP.append(v_entalpia_qH)
                     # fim Bloco4
-                    '''
+
                     # Bloco1: Templete = TMP, Monomero = ACR, Solvente = Tetraidrofurano
                     if templete[nome_template] == 'TMP_tetr' and monomero[nome_monomero] == 'ACR_tetr' and complexo[nome_complexo] == 'TMP_one_ACR_tetrahydrof':
                         v_entalpia = prop_fisicas(monomero[entalpia], templete[entalpia], complexo[entalpia])
@@ -1598,14 +1606,16 @@ if __name__ == '__main__':
                         entalp_TMP_tetr_3VP.append(v_entalpia)
                         entalp_qH_TMP_tetr_3VP.append(v_entalpia_qH)
                     # fim Bloco4
-            '''
+                    '''
+
+
             ####################################################################
             #
             # Graficos
             #
             ####################################################################
 
-
+            '''
             # Graficos CBZ Acetonitrila
             if templete[nome_template] == 'CBZ_acet' and monomero[nome_monomero] == 'ACR_acet' \
                and monomero1 == 'ACR' and propriedade_geral1 == 'entalpia':
@@ -1613,28 +1623,28 @@ if __name__ == '__main__':
                                        entalp_CBZ_acet_1ACR, entalp_qH_CBZ_acet_1ACR,
                                        entalp_CBZ_acet_2ACR, entalp_qH_CBZ_acet_2ACR,
                                        entalp_CBZ_acet_3ACR, entalp_qH_CBZ_acet_3ACR,
-                                       monomero1, solvente1, templete1, propriedade_geral1)
+                                       monomero1, solvente1, templete1, propriedade_geral2)
             if templete[nome_template] == 'CBZ_acet' and monomero[nome_monomero] == 'IA_aceto' \
               and monomero2 == 'IA' and propriedade_geral1 == 'entalpia':
               graficando_propriedades(interval_temp,
                                       entalp_CBZ_acet_1IA, entalp_qH_CBZ_acet_1IA,
                                       entalp_CBZ_acet_2IA, entalp_qH_CBZ_acet_2IA,
                                       entalp_CBZ_acet_3IA, entalp_qH_CBZ_acet_3IA,
-                                      monomero2, solvente1, templete1, propriedade_geral1)
+                                      monomero2, solvente1, templete1, propriedade_geral2)
             if templete[nome_template] == 'CBZ_acet' and monomero[nome_monomero] == 'MAA_acet' \
               and monomero3 == 'MAA' and propriedade_geral1 == 'entalpia':
               graficando_propriedades(interval_temp,
                                       entalp_CBZ_acet_1MAA, entalp_qH_CBZ_acet_1MAA,
                                       entalp_CBZ_acet_2MAA, entalp_qH_CBZ_acet_2MAA,
                                       entalp_CBZ_acet_3MAA, entalp_qH_CBZ_acet_3MAA,
-                                      monomero3, solvente1, templete1, propriedade_geral1)
+                                      monomero3, solvente1, templete1, propriedade_geral2)
             if templete[nome_template] == 'CBZ_acet' and monomero[nome_monomero] == 'VP_aceto' \
               and monomero4 == 'VP' and propriedade_geral1 == 'entalpia':
               graficando_propriedades(interval_temp,
                                       entalp_CBZ_acet_1VP, entalp_qH_CBZ_acet_1VP,
                                       entalp_CBZ_acet_2VP, entalp_qH_CBZ_acet_2VP,
                                       entalp_CBZ_acet_3VP, entalp_qH_CBZ_acet_3VP,
-                                      monomero4, solvente1, templete1, propriedade_geral1)
+                                      monomero4, solvente1, templete1, propriedade_geral2)
 
             # Graficos  CBZ Diclorometano
             if templete[nome_template] == 'CBZ_dich' and monomero[nome_monomero] == 'ACR_dich' \
@@ -1643,28 +1653,28 @@ if __name__ == '__main__':
                                        entalp_CBZ_diclo_1ACR, entalp_qH_CBZ_diclo_1ACR,
                                        entalp_CBZ_diclo_2ACR, entalp_qH_CBZ_diclo_2ACR,
                                        entalp_CBZ_diclo_3ACR, entalp_qH_CBZ_diclo_3ACR,
-                                       monomero1, solvente2, templete1, propriedade_geral1)
+                                       monomero1, solvente2, templete1, propriedade_geral2)
             if templete[nome_template] == 'CBZ_dich' and monomero[nome_monomero] == 'IA_dichl' \
                and monomero2 == 'IA' and propriedade_geral1 == 'entalpia':
                graficando_propriedades(interval_temp,
                                        entalp_CBZ_diclo_1IA, entalp_qH_CBZ_diclo_1IA,
                                        entalp_CBZ_diclo_2IA, entalp_qH_CBZ_diclo_2IA,
                                        entalp_CBZ_diclo_3IA, entalp_qH_CBZ_diclo_3IA,
-                                       monomero2, solvente2, templete1, propriedade_geral1)
+                                       monomero2, solvente2, templete1, propriedade_geral2)
             if templete[nome_template] == 'CBZ_dich' and monomero[nome_monomero] == 'MAA_dich' \
                and monomero3 == 'MAA' and propriedade_geral1 == 'entalpia':
                graficando_propriedades(interval_temp,
                                        entalp_CBZ_diclo_1MAA, entalp_qH_CBZ_diclo_1MAA,
                                        entalp_CBZ_diclo_2MAA, entalp_qH_CBZ_diclo_2MAA,
                                        entalp_CBZ_diclo_3MAA, entalp_qH_CBZ_diclo_3MAA,
-                                       monomero3, solvente2, templete1, propriedade_geral1)
+                                       monomero3, solvente2, templete1, propriedade_geral2)
             if templete[nome_template] == 'CBZ_dich' and monomero[nome_monomero] == 'VP_dichl' \
                and monomero4 == 'VP' and propriedade_geral1 == 'entalpia':
                graficando_propriedades(interval_temp,
                                        entalp_CBZ_diclo_1MAA, entalp_qH_CBZ_diclo_1MAA,
                                        entalp_CBZ_diclo_2MAA, entalp_qH_CBZ_diclo_2MAA,
                                        entalp_CBZ_diclo_3MAA, entalp_qH_CBZ_diclo_3MAA,
-                                       monomero4, solvente2, templete1, propriedade_geral1)
+                                       monomero4, solvente2, templete1, propriedade_geral2)
 
             # Graficos  CBZ Dimetilsufoxido
             if templete[nome_template] == 'CBZ_dime' and monomero[nome_monomero] == 'ACR_dime' \
@@ -1673,28 +1683,28 @@ if __name__ == '__main__':
                                        entalp_CBZ_dime_1ACR, entalp_qH_CBZ_dime_1ACR,
                                        entalp_CBZ_dime_2ACR, entalp_qH_CBZ_dime_2ACR,
                                        entalp_CBZ_dime_3ACR, entalp_qH_CBZ_dime_3ACR,
-                                       monomero1, solvente3, templete1, propriedade_geral1)
+                                       monomero1, solvente3, templete1, propriedade_geral2)
             if templete[nome_template] == 'CBZ_dime' and monomero[nome_monomero] == 'IA_dimet' \
                and monomero2 == 'IA' and propriedade_geral1 == 'entalpia':
                graficando_propriedades(interval_temp,
                                        entalp_CBZ_dime_1IA, entalp_qH_CBZ_dime_1IA,
                                        entalp_CBZ_dime_2IA, entalp_qH_CBZ_dime_2IA,
                                        entalp_CBZ_dime_3IA, entalp_qH_CBZ_dime_3IA,
-                                       monomero2, solvente3, templete1, propriedade_geral1)
+                                       monomero2, solvente3, templete1, propriedade_geral2)
             if templete[nome_template] == 'CBZ_dime' and monomero[nome_monomero] == 'MAA_dime' \
                and monomero3 == 'MAA' and propriedade_geral1 == 'entalpia':
                graficando_propriedades(interval_temp,
                                        entalp_CBZ_dime_1MAA, entalp_qH_CBZ_dime_1MAA,
                                        entalp_CBZ_dime_2MAA, entalp_qH_CBZ_dime_2MAA,
                                        entalp_CBZ_dime_3MAA, entalp_qH_CBZ_dime_3MAA,
-                                       monomero3, solvente3, templete1, propriedade_geral1)
+                                       monomero3, solvente3, templete1, propriedade_geral2)
             if templete[nome_template] == 'CBZ_dime' and monomero[nome_monomero] == 'VP_dimet' \
                and monomero4 == 'VP' and propriedade_geral1 == 'entalpia':
                graficando_propriedades(interval_temp,
                                        entalp_CBZ_dime_1VP, entalp_qH_CBZ_dime_1VP,
                                        entalp_CBZ_dime_2VP, entalp_qH_CBZ_dime_2VP,
                                        entalp_CBZ_dime_3VP, entalp_qH_CBZ_dime_3VP,
-                                       monomero4, solvente3, templete1, propriedade_geral1)
+                                       monomero4, solvente3, templete1, propriedade_geral2)
             # Graficos  CBZ Tetraidrofurano
             if templete[nome_template] == 'CBZ_tetr' and monomero[nome_monomero] == 'ACR_tetr' \
                and monomero1 == 'ACR' and propriedade_geral1 == 'entalpia':
@@ -1702,30 +1712,30 @@ if __name__ == '__main__':
                                        entalp_CBZ_tetr_1ACR, entalp_qH_CBZ_tetr_1ACR,
                                        entalp_CBZ_tetr_2ACR, entalp_qH_CBZ_tetr_2ACR,
                                        entalp_CBZ_tetr_3ACR, entalp_qH_CBZ_tetr_3ACR,
-                                       monomero1, solvente4, templete1, propriedade_geral1)
+                                       monomero1, solvente4, templete1, propriedade_geral2)
             if templete[nome_template] == 'CBZ_tetr' and monomero[nome_monomero] == 'IA_tetra' \
                and monomero2 == 'IA' and propriedade_geral1 == 'entalpia':
                graficando_propriedades(interval_temp,
                                        entalp_CBZ_tetr_1IA, entalp_qH_CBZ_tetr_1IA,
                                        entalp_CBZ_tetr_2IA, entalp_qH_CBZ_tetr_2IA,
                                        entalp_CBZ_tetr_3IA, entalp_qH_CBZ_tetr_3IA,
-                                       monomero2, solvente4, templete1, propriedade_geral1)
+                                       monomero2, solvente4, templete1, propriedade_geral2)
             if templete[nome_template] == 'CBZ_tetr' and monomero[nome_monomero] == 'MAA_tetr' \
                and monomero3 == 'MAA' and propriedade_geral1 == 'entalpia':
                graficando_propriedades(interval_temp,
                                        entalp_CBZ_tetr_1MAA, entalp_qH_CBZ_tetr_1MAA,
                                        entalp_CBZ_tetr_2MAA, entalp_qH_CBZ_tetr_2MAA,
                                        entalp_CBZ_tetr_3MAA, entalp_qH_CBZ_tetr_3MAA,
-                                       monomero3, solvente4, templete1, propriedade_geral1)
+                                       monomero3, solvente4, templete1, propriedade_geral2)
             if templete[nome_template] == 'CBZ_tetr' and monomero[nome_monomero] == 'VP_tetra' \
                and monomero4 == 'VP' and propriedade_geral1 == 'entalpia':
                graficando_propriedades(interval_temp,
                                        entalp_CBZ_tetr_1VP, entalp_qH_CBZ_tetr_1VP,
                                        entalp_CBZ_tetr_2VP, entalp_qH_CBZ_tetr_2VP,
                                        entalp_CBZ_tetr_3VP, entalp_qH_CBZ_tetr_3VP,
-                                       monomero4, solvente4, templete1, propriedade_geral1)
+                                       monomero4, solvente4, templete1, propriedade_geral2)
 
-
+            '''
             # Graficos DCF Acetonitrila
             if templete[nome_template] == 'DCF_acet' and monomero[nome_monomero] == 'ACR_acet' \
                and monomero1 == 'ACR' and propriedade_geral1 == 'entalpia':
@@ -1733,14 +1743,14 @@ if __name__ == '__main__':
                                        entalp_DCF_acet_1ACR, entalp_qH_DCF_acet_1ACR,
                                        entalp_DCF_acet_2ACR, entalp_qH_DCF_acet_2ACR,
                                        entalp_DCF_acet_3ACR, entalp_qH_DCF_acet_3ACR,
-                                       monomero1, solvente1, templete2, propriedade_geral1)
+                                       monomero1, solvente1, templete2, propriedade_geral2)
             if templete[nome_template] == 'DCF_acet' and monomero[nome_monomero] == 'IA_aceto' \
               and monomero2 == 'IA' and propriedade_geral1 == 'entalpia':
               graficando_propriedades(interval_temp,
                                       entalp_DCF_acet_1IA, entalp_qH_DCF_acet_1IA,
                                       entalp_DCF_acet_2IA, entalp_qH_DCF_acet_2IA,
                                       entalp_DCF_acet_3IA, entalp_qH_DCF_acet_3IA,
-                                      monomero2, solvente1, templete2, propriedade_geral1)
+                                      monomero2, solvente1, templete2, propriedade_geral2)
             if templete[nome_template] == 'DCF_acet' and monomero[nome_monomero] == 'MAA_acet' \
               and monomero3 == 'MAA' and propriedade_geral1 == 'entalpia':
               print(entalp_DCF_acet_1MAA)
@@ -1753,14 +1763,14 @@ if __name__ == '__main__':
                                       entalp_DCF_acet_1MAA, entalp_qH_DCF_acet_1MAA,
                                       entalp_DCF_acet_2MAA, entalp_qH_DCF_acet_2MAA,
                                       entalp_DCF_acet_3MAA, entalp_qH_DCF_acet_3MAA,
-                                      monomero3, solvente1, templete2, propriedade_geral1)
+                                      monomero3, solvente1, templete2, propriedade_geral2)
             if templete[nome_template] == 'DCF_acet' and monomero[nome_monomero] == 'VP_aceto' \
               and monomero4 == 'VP' and propriedade_geral1 == 'entalpia':
               graficando_propriedades(interval_temp,
                                       entalp_DCF_acet_1VP, entalp_qH_DCF_acet_1VP,
                                       entalp_DCF_acet_2VP, entalp_qH_DCF_acet_2VP,
                                       entalp_DCF_acet_3VP, entalp_qH_DCF_acet_3VP,
-                                      monomero4, solvente1, templete2, propriedade_geral1)
+                                      monomero4, solvente1, templete2, propriedade_geral2)
 
             # Graficos DCF Diclorometano
             if templete[nome_template] == 'DCF_dich' and monomero[nome_monomero] == 'ACR_dich' \
@@ -1769,28 +1779,28 @@ if __name__ == '__main__':
                                        entalp_DCF_dich_1ACR, entalp_qH_DCF_dich_1ACR,
                                        entalp_DCF_dich_2ACR, entalp_qH_DCF_dich_2ACR,
                                        entalp_DCF_dich_3ACR, entalp_qH_DCF_dich_3ACR,
-                                       monomero1, solvente2, templete2, propriedade_geral1)
+                                       monomero1, solvente2, templete2, propriedade_geral2)
             if templete[nome_template] == 'DCF_dich' and monomero[nome_monomero] == 'IA_dichl' \
               and monomero2 == 'IA' and propriedade_geral1 == 'entalpia':
               graficando_propriedades(interval_temp,
                                       entalp_DCF_dich_1IA, entalp_qH_DCF_dich_1IA,
                                       entalp_DCF_dich_2IA, entalp_qH_DCF_dich_2IA,
                                       entalp_DCF_dich_3IA, entalp_qH_DCF_dich_3IA,
-                                      monomero2, solvente2, templete2, propriedade_geral1)
+                                      monomero2, solvente2, templete2, propriedade_geral2)
             if templete[nome_template] == 'DCF_dich' and monomero[nome_monomero] == 'MAA_dich' \
               and monomero3 == 'MAA' and propriedade_geral1 == 'entalpia':
               graficando_propriedades(interval_temp,
                                       entalp_DCF_dich_1MAA, entalp_qH_DCF_dich_1MAA,
                                       entalp_DCF_dich_2MAA, entalp_qH_DCF_dich_2MAA,
                                       entalp_DCF_dich_3MAA, entalp_qH_DCF_dich_3MAA,
-                                      monomero3, solvente2, templete2, propriedade_geral1)
+                                      monomero3, solvente2, templete2, propriedade_geral2)
             if templete[nome_template] == 'DCF_dich' and monomero[nome_monomero] == 'VP_dichl' \
               and monomero4 == 'VP' and propriedade_geral1 == 'entalpia':
               graficando_propriedades(interval_temp,
                                       entalp_DCF_dich_1VP, entalp_qH_DCF_dich_1VP,
                                       entalp_DCF_dich_2VP, entalp_qH_DCF_dich_2VP,
                                       entalp_DCF_dich_3VP, entalp_qH_DCF_dich_3VP,
-                                      monomero4, solvente2, templete2, propriedade_geral1)
+                                      monomero4, solvente2, templete2, propriedade_geral2)
 
             # Graficos DCF Dimetilsufoxido
             if templete[nome_template] == 'DCF_dime' and monomero[nome_monomero] == 'ACR_dime' \
@@ -1799,28 +1809,28 @@ if __name__ == '__main__':
                                        entalp_DCF_dime_1ACR, entalp_qH_DCF_dime_1ACR,
                                        entalp_DCF_dime_2ACR, entalp_qH_DCF_dime_2ACR,
                                        entalp_DCF_dime_3ACR, entalp_qH_DCF_dime_3ACR,
-                                       monomero1, solvente3, templete2, propriedade_geral1)
+                                       monomero1, solvente3, templete2, propriedade_geral2)
             if templete[nome_template] == 'DCF_dime' and monomero[nome_monomero] == 'IA_dimet' \
               and monomero2 == 'IA' and propriedade_geral1 == 'entalpia':
               graficando_propriedades(interval_temp,
                                       entalp_DCF_dime_1IA, entalp_qH_DCF_dime_1IA,
                                       entalp_DCF_dime_2IA, entalp_qH_DCF_dime_2IA,
                                       entalp_DCF_dime_3IA, entalp_qH_DCF_dime_3IA,
-                                      monomero2, solvente3, templete2, propriedade_geral1)
+                                      monomero2, solvente3, templete2, propriedade_geral2)
             if templete[nome_template] == 'DCF_dime' and monomero[nome_monomero] == 'MAA_dime' \
               and monomero3 == 'MAA' and propriedade_geral1 == 'entalpia':
               graficando_propriedades(interval_temp,
                                       entalp_DCF_dime_1MAA, entalp_qH_DCF_dime_1MAA,
                                       entalp_DCF_dime_2MAA, entalp_qH_DCF_dime_2MAA,
                                       entalp_DCF_dime_3MAA, entalp_qH_DCF_dime_3MAA,
-                                      monomero3, solvente3, templete2, propriedade_geral1)
+                                      monomero3, solvente3, templete2, propriedade_geral2)
             if templete[nome_template] == 'DCF_dime' and monomero[nome_monomero] == 'VP_dimet' \
               and monomero4 == 'VP' and propriedade_geral1 == 'entalpia':
               graficando_propriedades(interval_temp,
                                       entalp_DCF_dime_1VP, entalp_qH_DCF_dime_1VP,
                                       entalp_DCF_dime_2VP, entalp_qH_DCF_dime_2VP,
                                       entalp_DCF_dime_3VP, entalp_qH_DCF_dime_3VP,
-                                      monomero4, solvente3, templete2, propriedade_geral1)
+                                      monomero4, solvente3, templete2, propriedade_geral2)
 
             # Graficos DCF Tetraidrofurano
             if templete[nome_template] == 'DCF_tetr' and monomero[nome_monomero] == 'ACR_tetr' \
@@ -1829,29 +1839,29 @@ if __name__ == '__main__':
                                        entalp_DCF_tetr_1ACR, entalp_qH_DCF_tetr_1ACR,
                                        entalp_DCF_tetr_2ACR, entalp_qH_DCF_tetr_2ACR,
                                        entalp_DCF_tetr_3ACR, entalp_qH_DCF_tetr_3ACR,
-                                       monomero1, solvente4, templete2, propriedade_geral1)
+                                       monomero1, solvente4, templete2, propriedade_geral2)
             if templete[nome_template] == 'DCF_tetr' and monomero[nome_monomero] == 'IA_tetra' \
               and monomero2 == 'IA' and propriedade_geral1 == 'entalpia':
               graficando_propriedades(interval_temp,
                                       entalp_DCF_tetr_1IA, entalp_qH_DCF_tetr_1IA,
                                       entalp_DCF_tetr_2IA, entalp_qH_DCF_tetr_2IA,
                                       entalp_DCF_tetr_3IA, entalp_qH_DCF_tetr_3IA,
-                                      monomero2, solvente4, templete2, propriedade_geral1)
+                                      monomero2, solvente4, templete2, propriedade_geral2)
             if templete[nome_template] == 'DCF_tetr' and monomero[nome_monomero] == 'MAA_tetr' \
               and monomero3 == 'MAA' and propriedade_geral1 == 'entalpia':
               graficando_propriedades(interval_temp,
                                       entalp_DCF_tetr_1MAA, entalp_qH_DCF_tetr_1MAA,
                                       entalp_DCF_tetr_2MAA, entalp_qH_DCF_tetr_2MAA,
                                       entalp_DCF_tetr_3MAA, entalp_qH_DCF_tetr_3MAA,
-                                      monomero3, solvente4, templete2, propriedade_geral1)
+                                      monomero3, solvente4, templete2, propriedade_geral2)
             if templete[nome_template] == 'DCF_tetr' and monomero[nome_monomero] == 'VP_tetra' \
               and monomero4 == 'VP' and propriedade_geral1 == 'entalpia':
               graficando_propriedades(interval_temp,
                                       entalp_DCF_tetr_1VP, entalp_qH_DCF_tetr_1VP,
                                       entalp_DCF_tetr_2VP, entalp_qH_DCF_tetr_2VP,
                                       entalp_DCF_tetr_3VP, entalp_qH_DCF_tetr_3VP,
-                                      monomero4, solvente4, templete2, propriedade_geral1)
-
+                                      monomero4, solvente4, templete2, propriedade_geral2)
+            '''
             # Graficos TMP Acetonitrila
             if templete[nome_template] == 'TMP_acet' and monomero[nome_monomero] == 'ACR_acet' \
                and monomero1 == 'ACR' and propriedade_geral1 == 'entalpia':
@@ -1859,14 +1869,14 @@ if __name__ == '__main__':
                                        entalp_TMP_acet_1ACR, entalp_qH_TMP_acet_1ACR,
                                        entalp_TMP_acet_2ACR, entalp_qH_TMP_acet_2ACR,
                                        entalp_TMP_acet_3ACR, entalp_qH_TMP_acet_3ACR,
-                                       monomero1, solvente1, templete3, propriedade_geral1)
+                                       monomero1, solvente1, templete3, propriedade_geral2)
             if templete[nome_template] == 'TMP_acet' and monomero[nome_monomero] == 'IA_aceto' \
               and monomero2 == 'IA' and propriedade_geral1 == 'entalpia':
               graficando_propriedades(interval_temp,
                                       entalp_TMP_acet_1IA, entalp_qH_TMP_acet_1IA,
                                       entalp_TMP_acet_2IA, entalp_qH_TMP_acet_2IA,
                                       entalp_TMP_acet_3IA, entalp_qH_TMP_acet_3IA,
-                                      monomero2, solvente1, templete3, propriedade_geral1)
+                                      monomero2, solvente1, templete3, propriedade_geral2)
             if templete[nome_template] == 'TMP_acet' and monomero[nome_monomero] == 'MAA_acet' \
               and monomero3 == 'MAA' and propriedade_geral1 == 'entalpia':
               print(entalp_TMP_acet_1MAA)
@@ -1879,14 +1889,14 @@ if __name__ == '__main__':
                                       entalp_TMP_acet_1MAA, entalp_qH_TMP_acet_1MAA,
                                       entalp_TMP_acet_2MAA, entalp_qH_TMP_acet_2MAA,
                                       entalp_TMP_acet_3MAA, entalp_qH_TMP_acet_3MAA,
-                                      monomero3, solvente1, templete3, propriedade_geral1)
+                                      monomero3, solvente1, templete3, propriedade_geral2)
             if templete[nome_template] == 'TMP_acet' and monomero[nome_monomero] == 'VP_aceto' \
               and monomero4 == 'VP' and propriedade_geral1 == 'entalpia':
               graficando_propriedades(interval_temp,
                                       entalp_TMP_acet_1VP, entalp_qH_TMP_acet_1VP,
                                       entalp_TMP_acet_2VP, entalp_qH_TMP_acet_2VP,
                                       entalp_TMP_acet_3VP, entalp_qH_TMP_acet_3VP,
-                                      monomero4, solvente1, templete3, propriedade_geral1)
+                                      monomero4, solvente1, templete3, propriedade_geral2)
 
             # Graficos TMP Diclorometano
             if templete[nome_template] == 'TMP_dich' and monomero[nome_monomero] == 'ACR_dich' \
@@ -1895,28 +1905,28 @@ if __name__ == '__main__':
                                        entalp_TMP_dich_1ACR, entalp_qH_TMP_dich_1ACR,
                                        entalp_TMP_dich_2ACR, entalp_qH_TMP_dich_2ACR,
                                        entalp_TMP_dich_3ACR, entalp_qH_TMP_dich_3ACR,
-                                       monomero1, solvente2, templete3, propriedade_geral1)
+                                       monomero1, solvente2, templete3, propriedade_geral2)
             if templete[nome_template] == 'TMP_dich' and monomero[nome_monomero] == 'IA_dichl' \
               and monomero2 == 'IA' and propriedade_geral1 == 'entalpia':
               graficando_propriedades(interval_temp,
                                       entalp_TMP_dich_1IA, entalp_qH_TMP_dich_1IA,
                                       entalp_TMP_dich_2IA, entalp_qH_TMP_dich_2IA,
                                       entalp_TMP_dich_3IA, entalp_qH_TMP_dich_3IA,
-                                      monomero2, solvente2, templete3, propriedade_geral1)
+                                      monomero2, solvente2, templete3, propriedade_geral2)
             if templete[nome_template] == 'TMP_dich' and monomero[nome_monomero] == 'MAA_dich' \
               and monomero3 == 'MAA' and propriedade_geral1 == 'entalpia':
               graficando_propriedades(interval_temp,
                                       entalp_TMP_dich_1MAA, entalp_qH_TMP_dich_1MAA,
                                       entalp_TMP_dich_2MAA, entalp_qH_TMP_dich_2MAA,
                                       entalp_TMP_dich_3MAA, entalp_qH_TMP_dich_3MAA,
-                                      monomero3, solvente2, templete3, propriedade_geral1)
+                                      monomero3, solvente2, templete3, propriedade_geral2)
             if templete[nome_template] == 'TMP_dich' and monomero[nome_monomero] == 'VP_dichl' \
               and monomero4 == 'VP' and propriedade_geral1 == 'entalpia':
               graficando_propriedades(interval_temp,
                                       entalp_TMP_dich_1VP, entalp_qH_TMP_dich_1VP,
                                       entalp_TMP_dich_2VP, entalp_qH_TMP_dich_2VP,
                                       entalp_TMP_dich_3VP, entalp_qH_TMP_dich_3VP,
-                                      monomero4, solvente2, templete3, propriedade_geral1)
+                                      monomero4, solvente2, templete3, propriedade_geral2)
 
             # Graficos  TMP Dimetilsufoxido
             if templete[nome_template] == 'TMP_dime' and monomero[nome_monomero] == 'ACR_dime' \
@@ -1925,29 +1935,28 @@ if __name__ == '__main__':
                                        entalp_TMP_dime_1ACR, entalp_qH_TMP_dime_1ACR,
                                        entalp_TMP_dime_2ACR, entalp_qH_TMP_dime_2ACR,
                                        entalp_TMP_dime_3ACR, entalp_qH_TMP_dime_3ACR,
-                                       monomero1, solvente3, templete3, propriedade_geral1)
+                                       monomero1, solvente3, templete3, propriedade_geral2)
             if templete[nome_template] == 'TMP_dime' and monomero[nome_monomero] == 'IA_dimet' \
                and monomero2 == 'IA' and propriedade_geral1 == 'entalpia':
                graficando_propriedades(interval_temp,
                                        entalp_TMP_dime_1IA, entalp_qH_TMP_dime_1IA,
                                        entalp_TMP_dime_2IA, entalp_qH_TMP_dime_2IA,
                                        entalp_TMP_dime_3IA, entalp_qH_TMP_dime_3IA,
-                                       monomero2, solvente3, templete3, propriedade_geral1)
+                                       monomero2, solvente3, templete3, propriedade_geral2)
             if templete[nome_template] == 'TMP_dime' and monomero[nome_monomero] == 'MAA_dime' \
                and monomero3 == 'MAA' and propriedade_geral1 == 'entalpia':
                graficando_propriedades(interval_temp,
                                        entalp_TMP_dime_1MAA, entalp_qH_TMP_dime_1MAA,
                                        entalp_TMP_dime_2MAA, entalp_qH_TMP_dime_2MAA,
                                        entalp_TMP_dime_3MAA, entalp_qH_TMP_dime_3MAA,
-                                       monomero3, solvente3, templete3, propriedade_geral1)
+                                       monomero3, solvente3, templete3, propriedade_geral2)
             if templete[nome_template] == 'TMP_dime' and monomero[nome_monomero] == 'VP_dimet' \
                and monomero4 == 'VP' and propriedade_geral1 == 'entalpia':
                graficando_propriedades(interval_temp,
                                        entalp_TMP_dime_1VP, entalp_qH_TMP_dime_1VP,
                                        entalp_TMP_dime_2VP, entalp_qH_TMP_dime_2VP,
                                        entalp_TMP_dime_3VP, entalp_qH_TMP_dime_3VP,
-                                       monomero4, solvente3, templete3, propriedade_geral1)
-            '''
+                                       monomero4, solvente3, templete3, propriedade_geral2)
             # Graficos TMP Tetraidrofurano
             if templete[nome_template] == 'TMP_tetr' and monomero[nome_monomero] == 'ACR_tetr' \
                and monomero1 == 'ACR' and propriedade_geral1 == 'entalpia':
@@ -1955,28 +1964,29 @@ if __name__ == '__main__':
                                        entalp_TMP_tetr_1ACR, entalp_qH_TMP_tetr_1ACR,
                                        entalp_TMP_tetr_2ACR, entalp_qH_TMP_tetr_2ACR,
                                        entalp_TMP_tetr_3ACR, entalp_qH_TMP_tetr_3ACR,
-                                       monomero1, solvente4, templete3, propriedade_geral1)
+                                       monomero1, solvente4, templete3, propriedade_geral2)
             if templete[nome_template] == 'TMP_tetr' and monomero[nome_monomero] == 'IA_tetra' \
               and monomero2 == 'IA' and propriedade_geral1 == 'entalpia':
               graficando_propriedades(interval_temp,
                                       entalp_TMP_tetr_1IA, entalp_qH_TMP_tetr_1IA,
                                       entalp_TMP_tetr_2IA, entalp_qH_TMP_tetr_2IA,
                                       entalp_TMP_tetr_3IA, entalp_qH_TMP_tetr_3IA,
-                                      monomero2, solvente4, templete3, propriedade_geral1)
+                                      monomero2, solvente4, templete3, propriedade_geral2)
             if templete[nome_template] == 'TMP_tetr' and monomero[nome_monomero] == 'MAA_tetr' \
               and monomero3 == 'MAA' and propriedade_geral1 == 'entalpia':
               graficando_propriedades(interval_temp,
                                       entalp_TMP_tetr_1MAA, entalp_qH_TMP_tetr_1MAA,
                                       entalp_TMP_tetr_2MAA, entalp_qH_TMP_tetr_2MAA,
                                       entalp_TMP_tetr_3MAA, entalp_qH_TMP_tetr_3MAA,
-                                      monomero3, solvente4, templete3, propriedade_geral1)
+                                      monomero3, solvente4, templete3, propriedade_geral2)
             if templete[nome_template] == 'TMP_tetr' and monomero[nome_monomero] == 'VP_tetra' \
               and monomero4 == 'VP' and propriedade_geral1 == 'entalpia':
               graficando_propriedades(interval_temp,
                                       entalp_TMP_tetr_1VP, entalp_qH_TMP_tetr_1VP,
                                       entalp_TMP_tetr_2VP, entalp_qH_TMP_tetr_2VP,
                                       entalp_TMP_tetr_3VP, entalp_qH_TMP_tetr_3VP,
-                                      monomero4, solvente4, templete3, propriedade_geral1)
+                                      monomero4, solvente4, templete3, propriedade_geral2)
+            '''
     #print(entalp_CBZ_acet_1MAA)
     #print(entalp_qH_CBZ_acet_1MAA)
     #print(entalp_CBZ_acet_2MAA)
