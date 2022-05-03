@@ -304,8 +304,6 @@ if __name__ == '__main__':
     entalp_CBZ_tetr_3IA = []
     entalp_qH_CBZ_tetr_3IA = []
 
-
-
     # Templete = CBZ | Monomero = MAA
     entalp_CBZ_acet_1MAA = []
     entalp_qH_CBZ_acet_1MAA = []
@@ -365,6 +363,241 @@ if __name__ == '__main__':
     entalp_CBZ_tetr_3VP = []
     entalp_qH_CBZ_tetr_3VP = []
 
+    # Templete = DCF | Monomero = ACR
+    entalp_DCF_acet_1ACR = []
+    entalp_qH_DCF_acet_1ACR = []
+    entalp_DCF_acet_2ACR = []
+    entalp_qH_DCF_acet_2ACR = []
+    entalp_DCF_acet_3ACR = []
+    entalp_qH_DCF_acet_3ACR = []
+
+    entalp_DCF_dich_1ACR = []
+    entalp_qH_DCF_dich_1ACR = []
+    entalp_DCF_dich_2ACR = []
+    entalp_qH_DCF_dich_2ACR = []
+    entalp_DCF_dich_3ACR = []
+    entalp_qH_DCF_dich_3ACR = []
+
+    entalp_DCF_dime_1ACR = []
+    entalp_qH_DCF_dime_1ACR = []
+    entalp_DCF_dime_2ACR = []
+    entalp_qH_DCF_dime_2ACR = []
+    entalp_DCF_dime_3ACR = []
+    entalp_qH_DCF_dime_3ACR = []
+
+    entalp_DCF_tetr_1ACR = []
+    entalp_qH_DCF_tetr_1ACR = []
+    entalp_DCF_tetr_2ACR = []
+    entalp_qH_DCF_tetr_2ACR = []
+    entalp_DCF_tetr_3ACR = []
+    entalp_qH_DCF_tetr_3ACR = []
+
+
+    # Templete = DCF | Monomero = IA
+    entalp_DCF_acet_1IA = []
+    entalp_qH_DCF_acet_1IA = []
+    entalp_DCF_acet_2IA = []
+    entalp_qH_DCF_acet_2IA = []
+    entalp_DCF_acet_3IA = []
+    entalp_qH_DCF_acet_3IA = []
+
+    entalp_DCF_dich_1IA = []
+    entalp_qH_DCF_dich_1IA = []
+    entalp_DCF_dich_2IA = []
+    entalp_qH_DCF_dich_2IA = []
+    entalp_DCF_dich_3IA = []
+    entalp_qH_DCF_dich_3IA = []
+
+    entalp_DCF_dime_1IA = []
+    entalp_qH_DCF_dime_1IA = []
+    entalp_DCF_dime_2IA = []
+    entalp_qH_DCF_dime_2IA = []
+    entalp_DCF_dime_3IA = []
+    entalp_qH_DCF_dime_3IA = []
+
+    entalp_DCF_tetr_1IA = []
+    entalp_qH_DCF_tetr_1IA = []
+    entalp_DCF_tetr_2IA = []
+    entalp_qH_DCF_tetr_2IA = []
+    entalp_DCF_tetr_3IA = []
+    entalp_qH_DCF_tetr_3IA = []
+
+
+    # Templete = DCF | Monomero = MAA
+    entalp_DCF_acet_1MAA = []
+    entalp_qH_DCF_acet_1MAA = []
+    entalp_DCF_acet_2MAA = []
+    entalp_qH_DCF_acet_2MAA = []
+    entalp_DCF_acet_3MAA = []
+    entalp_qH_DCF_acet_3MAA = []
+
+    entalp_DCF_dich_1MAA = []
+    entalp_qH_DCF_dich_1MAA = []
+    entalp_DCF_dich_2MAA = []
+    entalp_qH_DCF_dich_2MAA = []
+    entalp_DCF_dich_3MAA = []
+    entalp_qH_DCF_dich_3MAA = []
+
+    entalp_DCF_dime_1MAA = []
+    entalp_qH_DCF_dime_1MAA = []
+    entalp_DCF_dime_2MAA = []
+    entalp_qH_DCF_dime_2MAA = []
+    entalp_DCF_dime_3MAA = []
+    entalp_qH_DCF_dime_3MAA = []
+
+    entalp_DCF_tetr_1MAA = []
+    entalp_qH_DCF_tetr_1MAA = []
+    entalp_DCF_tetr_2MAA = []
+    entalp_qH_DCF_tetr_2MAA = []
+    entalp_DCF_tetr_3MAA = []
+    entalp_qH_DCF_tetr_3MAA = []
+
+    # Templete = DCF | Monomero = VP
+    entalp_DCF_acet_1VP = []
+    entalp_qH_DCF_acet_1VP = []
+    entalp_DCF_acet_2VP = []
+    entalp_qH_DCF_acet_2VP = []
+    entalp_DCF_acet_3VP = []
+    entalp_qH_DCF_acet_3VP = []
+
+    entalp_DCF_dich_1VP = []
+    entalp_qH_DCF_dich_1VP = []
+    entalp_DCF_dich_2VP = []
+    entalp_qH_DCF_dich_2VP = []
+    entalp_DCF_dich_3VP = []
+    entalp_qH_DCF_dich_3VP = []
+
+    entalp_DCF_dime_1VP = []
+    entalp_qH_DCF_dime_1VP = []
+    entalp_DCF_dime_2VP = []
+    entalp_qH_DCF_dime_2VP = []
+    entalp_DCF_dime_3VP = []
+    entalp_qH_DCF_dime_3VP = []
+
+    entalp_DCF_tetr_1VP = []
+    entalp_qH_DCF_tetr_1VP = []
+    entalp_DCF_tetr_2VP = []
+    entalp_qH_DCF_tetr_2VP = []
+    entalp_DCF_tetr_3VP = []
+    entalp_qH_DCF_tetr_3VP = []
+
+    # Templete = TMP | Monomero = ACR
+    entalp_TMP_acet_1ACR = []
+    entalp_qH_TMP_acet_1ACR = []
+    entalp_TMP_acet_2ACR = []
+    entalp_qH_TMP_acet_2ACR = []
+    entalp_TMP_acet_3ACR = []
+    entalp_qH_TMP_acet_3ACR = []
+
+    entalp_TMP_dich_1ACR = []
+    entalp_qH_TMP_dich_1ACR = []
+    entalp_TMP_dich_2ACR = []
+    entalp_qH_TMP_dich_2ACR = []
+    entalp_TMP_dich_3ACR = []
+    entalp_qH_TMP_dich_3ACR = []
+
+    entalp_TMP_dime_1ACR = []
+    entalp_qH_TMP_dime_1ACR = []
+    entalp_TMP_dime_2ACR = []
+    entalp_qH_TMP_dime_2ACR = []
+    entalp_TMP_dime_3ACR = []
+    entalp_qH_TMP_dime_3ACR = []
+
+    entalp_TMP_tetr_1ACR = []
+    entalp_qH_TMP_tetr_1ACR = []
+    entalp_TMP_tetr_2ACR = []
+    entalp_qH_TMP_tetr_2ACR = []
+    entalp_TMP_tetr_3ACR = []
+    entalp_qH_TMP_tetr_3ACR = []
+
+    # Templete = TMP | Monomero = IA
+    entalp_TMP_acet_1IA = []
+    entalp_qH_TMP_acet_1IA = []
+    entalp_TMP_acet_2IA = []
+    entalp_qH_TMP_acet_2IA = []
+    entalp_TMP_acet_3IA = []
+    entalp_qH_TMP_acet_3IA = []
+
+    entalp_TMP_dich_1IA = []
+    entalp_qH_TMP_dich_1IA = []
+    entalp_TMP_dich_2IA = []
+    entalp_qH_TMP_dich_2IA = []
+    entalp_TMP_dich_3IA = []
+    entalp_qH_TMP_dich_3IA = []
+
+    entalp_TMP_dime_1IA = []
+    entalp_qH_TMP_dime_1IA = []
+    entalp_TMP_dime_2IA = []
+    entalp_qH_TMP_dime_2IA = []
+    entalp_TMP_dime_3IA = []
+    entalp_qH_TMP_dime_3IA = []
+
+    entalp_TMP_tetr_1IA = []
+    entalp_qH_TMP_tetr_1IA = []
+    entalp_TMP_tetr_2IA = []
+    entalp_qH_TMP_tetr_2IA = []
+    entalp_TMP_tetr_3IA = []
+    entalp_qH_TMP_tetr_3IA = []
+
+    # Templete = TMP | Monomero = MAA
+    entalp_TMP_acet_1MAA = []
+    entalp_qH_TMP_acet_1MAA = []
+    entalp_TMP_acet_2MAA = []
+    entalp_qH_TMP_acet_2MAA = []
+    entalp_TMP_acet_3MAA = []
+    entalp_qH_TMP_acet_3MAA = []
+
+    entalp_TMP_dich_1MAA = []
+    entalp_qH_TMP_dich_1MAA = []
+    entalp_TMP_dich_2MAA = []
+    entalp_qH_TMP_dich_2MAA = []
+    entalp_TMP_dich_3MAA = []
+    entalp_qH_TMP_dich_3MAA = []
+
+    entalp_TMP_dime_1MAA = []
+    entalp_qH_TMP_dime_1MAA = []
+    entalp_TMP_dime_2MAA = []
+    entalp_qH_TMP_dime_2MAA = []
+    entalp_TMP_dime_3MAA = []
+    entalp_qH_TMP_dime_3MAA = []
+
+    entalp_TMP_tetr_1MAA = []
+    entalp_qH_TMP_tetr_1MAA = []
+    entalp_TMP_tetr_2MAA = []
+    entalp_qH_TMP_tetr_2MAA = []
+    entalp_TMP_tetr_3MAA = []
+    entalp_qH_TMP_tetr_3MAA = []
+
+
+    # Templete = TMP | Monomero = VP
+    entalp_TMP_acet_1VP = []
+    entalp_qH_TMP_acet_1VP = []
+    entalp_TMP_acet_2VP = []
+    entalp_qH_TMP_acet_2VP = []
+    entalp_TMP_acet_3VP = []
+    entalp_qH_TMP_acet_3VP = []
+
+    entalp_TMP_dich_1VP = []
+    entalp_qH_TMP_dich_1VP = []
+    entalp_TMP_dich_2VP = []
+    entalp_qH_TMP_dich_2VP = []
+    entalp_TMP_dich_3VP = []
+    entalp_qH_TMP_dich_3VP = []
+
+    entalp_TMP_dime_1VP = []
+    entalp_qH_TMP_dime_1VP = []
+    entalp_TMP_dime_2VP = []
+    entalp_qH_TMP_dime_2VP = []
+    entalp_TMP_dime_3VP = []
+    entalp_qH_TMP_dime_3VP = []
+
+    entalp_TMP_tetr_1VP = []
+    entalp_qH_TMP_tetr_1VP = []
+    entalp_TMP_tetr_2VP = []
+    entalp_qH_TMP_tetr_2VP = []
+    entalp_TMP_tetr_3VP = []
+    entalp_qH_TMP_tetr_3VP = []
+
 
     for templetes in dados_templetes:
         for monomeros in dados_monomeros:
@@ -373,6 +606,11 @@ if __name__ == '__main__':
                     #print(f'{templete[nome_template]}  |  {monomero[nome_monomero]}  |  {complexo[nome_complexo]}')
 
                     '''
+                    ############################################################################
+                    #
+                    # Templete CBZ
+                    #
+                    ############################################################################
                     # Bloco1: Templete = CBZ, Monomero = ACR, Solvente = Acetonitrila
                     if templete[nome_template] == 'CBZ_acet' and monomero[nome_monomero] == 'ACR_acet' and complexo[nome_complexo] == 'CBZ_one_ACR_acetonitril':
                         v_entalpia = prop_fisicas(monomero[entalpia], templete[entalpia], complexo[entalpia])
@@ -618,7 +856,7 @@ if __name__ == '__main__':
                         entalp_CBZ_dime_3VP.append(v_entalpia)
                         entalp_qH_CBZ_dime_3VP.append(v_entalpia_qH)
                     # fim Bloco4
-                    '''
+
                     # Bloco1: Templete = CBZ, Monomero = ACR, Solvente = Tetraidrofurano
                     if templete[nome_template] == 'CBZ_tetr' and monomero[nome_monomero] == 'ACR_tetr' and complexo[nome_complexo] == 'CBZ_one_ACR_tetrahydrof':
                         v_entalpia = prop_fisicas(monomero[entalpia], templete[entalpia], complexo[entalpia])
@@ -699,11 +937,676 @@ if __name__ == '__main__':
                         entalp_qH_CBZ_tetr_3VP.append(v_entalpia_qH)
                     # fim Bloco4
 
+                    ############################################################################
+                    #
+                    # Templete DCF: OBS, todos os cálculos com MAA deram errado
+                    #
+                    ############################################################################
+                    # Bloco1: Templete = DCF, Monomero = ACR, Solvente = Acetonitrila
+                    if templete[nome_template] == 'DCF_acet' and monomero[nome_monomero] == 'ACR_acet' and complexo[nome_complexo] == 'DCF_one_ACR_acetonitril':
+                        v_entalpia = prop_fisicas(monomero[entalpia], templete[entalpia], complexo[entalpia])
+                        v_entalpia_qH = prop_fisicas(monomero[entalpia_qH], templete[entalpia_qH], complexo[entalpia_qH])
+                        entalp_DCF_acet_1ACR.append(v_entalpia)
+                        entalp_qH_DCF_acet_1ACR.append(v_entalpia_qH)
+
+                    if templete[nome_template] == 'DCF_acet' and monomero[nome_monomero] == 'ACR_acet' and complexo[nome_complexo] == 'DCF_two_ACR_acetonitril':
+                        v_entalpia = prop_fisicas2mono(monomero[entalpia], templete[entalpia], complexo[entalpia])
+                        v_entalpia_qH = prop_fisicas2mono(monomero[entalpia_qH], templete[entalpia_qH], complexo[entalpia_qH])
+                        entalp_DCF_acet_2ACR.append(v_entalpia)
+                        entalp_qH_DCF_acet_2ACR.append(v_entalpia_qH)
+
+                    if templete[nome_template] == 'DCF_acet' and monomero[nome_monomero] == 'ACR_acet' and complexo[nome_complexo] == 'DCF_three_ACR_acetonitr':
+                        v_entalpia = prop_fisicas3mono(monomero[entalpia], templete[entalpia], complexo[entalpia])
+                        v_entalpia_qH = prop_fisicas3mono(monomero[entalpia_qH], templete[entalpia_qH], complexo[entalpia_qH])
+                        entalp_DCF_acet_3ACR.append(v_entalpia)
+                        entalp_qH_DCF_acet_3ACR.append(v_entalpia_qH)
+                    # fim Bloco1
+
+                    # Bloco2: Templete = DCF, Monomero = IA, Solvente = Acetonitrila
+                    if templete[nome_template] == 'DCF_acet' and monomero[nome_monomero] == 'IA_aceto' and complexo[nome_complexo] == 'DCF_one_IA_acetonitrile':
+                        v_entalpia = prop_fisicas(monomero[entalpia], templete[entalpia], complexo[entalpia])
+                        v_entalpia_qH = prop_fisicas(monomero[entalpia_qH], templete[entalpia_qH], complexo[entalpia_qH])
+                        entalp_DCF_acet_1IA.append(v_entalpia)
+                        entalp_qH_DCF_acet_1IA.append(v_entalpia_qH)
+
+                    if templete[nome_template] == 'DCF_acet' and monomero[nome_monomero] == 'IA_aceto' and complexo[nome_complexo] == 'DCF_two_IA_acetonitrile':
+                        v_entalpia = prop_fisicas2mono(monomero[entalpia], templete[entalpia], complexo[entalpia])
+                        v_entalpia_qH = prop_fisicas2mono(monomero[entalpia_qH], templete[entalpia_qH], complexo[entalpia_qH])
+                        entalp_DCF_acet_2IA.append(v_entalpia)
+                        entalp_qH_DCF_acet_2IA.append(v_entalpia_qH)
+
+                    if templete[nome_template] == 'DCF_acet' and monomero[nome_monomero] == 'IA_aceto' and complexo[nome_complexo] == 'DCF_three_IA_acetonitri':
+                        v_entalpia = prop_fisicas3mono(monomero[entalpia], templete[entalpia], complexo[entalpia])
+                        v_entalpia_qH = prop_fisicas3mono(monomero[entalpia_qH], templete[entalpia_qH], complexo[entalpia_qH])
+                        entalp_DCF_acet_3IA.append(v_entalpia)
+                        entalp_qH_DCF_acet_3IA.append(v_entalpia_qH)
+                    # fim Bloco2
+
+                    # Bloco3: Templete = DCF, Monomero = MAA, Solvente = Acetonitrila
+                    if templete[nome_template] == 'DCF_acet' and monomero[nome_monomero] == 'MAA_acet' and complexo[nome_complexo] == 'DCF_one_MAA_acetonitril':
+                        v_entalpia = prop_fisicas(monomero[entalpia], templete[entalpia], complexo[entalpia])
+                        v_entalpia_qH = prop_fisicas(monomero[entalpia_qH], templete[entalpia_qH], complexo[entalpia_qH])
+                        entalp_DCF_acet_1MAA.append(v_entalpia)
+                        entalp_qH_DCF_acet_1MAA.append(v_entalpia_qH)
+
+                    if templete[nome_template] == 'DCF_acet' and monomero[nome_monomero] == 'MAA_acet' and complexo[nome_complexo] == 'DCF_two_MAA_acetonitril':
+                        v_entalpia = prop_fisicas2mono(monomero[entalpia], templete[entalpia], complexo[entalpia])
+                        v_entalpia_qH = prop_fisicas2mono(monomero[entalpia_qH], templete[entalpia_qH], complexo[entalpia_qH])
+                        entalp_DCF_acet_2MAA.append(v_entalpia)
+                        entalp_qH_DCF_acet_2MAA.append(v_entalpia_qH)
+
+                    if templete[nome_template] == 'DCF_acet' and monomero[nome_monomero] == 'MAA_acet' and complexo[nome_complexo] == 'DCF_three_MAA_acetonitr':
+                        print(monomero[entalpia], templete[entalpia], complexo[entalpia])
+                        v_entalpia = prop_fisicas3mono(monomero[entalpia], templete[entalpia], complexo[entalpia])
+                        v_entalpia_qH = prop_fisicas3mono(monomero[entalpia_qH], templete[entalpia_qH], complexo[entalpia_qH])
+                        entalp_DCF_acet_3MAA.append(v_entalpia)
+                        entalp_qH_DCF_acet_3MAA.append(v_entalpia_qH)
+                    # fim Bloco3
+
+                    # Bloco4: Templete = CBZ, Monomero = VP, Solvente = Acetonitrila
+                    if templete[nome_template] == 'DCF_acet' and monomero[nome_monomero] == 'VP_aceto' and complexo[nome_complexo] == 'DCF_one_VP_acetonitrile':
+                        v_entalpia = prop_fisicas(monomero[entalpia], templete[entalpia], complexo[entalpia])
+                        v_entalpia_qH = prop_fisicas(monomero[entalpia_qH], templete[entalpia_qH], complexo[entalpia_qH])
+                        entalp_DCF_acet_1VP.append(v_entalpia)
+                        entalp_qH_DCF_acet_1VP.append(v_entalpia_qH)
 
 
+                    if templete[nome_template] == 'DCF_acet' and monomero[nome_monomero] == 'VP_aceto' and complexo[nome_complexo] == 'DCF_two_VP_acetonitrile':
+                        v_entalpia = prop_fisicas2mono(monomero[entalpia], templete[entalpia], complexo[entalpia])
+                        v_entalpia_qH = prop_fisicas2mono(monomero[entalpia_qH], templete[entalpia_qH], complexo[entalpia_qH])
+                        entalp_DCF_acet_2VP.append(v_entalpia)
+                        entalp_qH_DCF_acet_2VP.append(v_entalpia_qH)
 
+                    if templete[nome_template] == 'DCF_acet' and monomero[nome_monomero] == 'VP_aceto' and complexo[nome_complexo] == 'DCF_three_VP_acetonitri':
+                        v_entalpia = prop_fisicas3mono(monomero[entalpia], templete[entalpia], complexo[entalpia])
+                        v_entalpia_qH = prop_fisicas3mono(monomero[entalpia_qH], templete[entalpia_qH], complexo[entalpia_qH])
+                        entalp_DCF_acet_3VP.append(v_entalpia)
+                        entalp_qH_DCF_acet_3VP.append(v_entalpia_qH)
+                    # fim Bloco4
+
+                    # Bloco1: Templete = DCF, Monomero = ACR, Solvente = Diclorometano
+                    if templete[nome_template] == 'DCF_dich' and monomero[nome_monomero] == 'ACR_dich' and complexo[nome_complexo] == 'DCF_one_ACR_dichloromet':
+                        v_entalpia = prop_fisicas(monomero[entalpia], templete[entalpia], complexo[entalpia])
+                        v_entalpia_qH = prop_fisicas(monomero[entalpia_qH], templete[entalpia_qH], complexo[entalpia_qH])
+                        entalp_DCF_dich_1ACR.append(v_entalpia)
+                        entalp_qH_DCF_dich_1ACR.append(v_entalpia_qH)
+
+                    if templete[nome_template] == 'DCF_dich' and monomero[nome_monomero] == 'ACR_dich' and complexo[nome_complexo] == 'DCF_two_ACR_dichloromet':
+                        v_entalpia = prop_fisicas2mono(monomero[entalpia], templete[entalpia], complexo[entalpia])
+                        v_entalpia_qH = prop_fisicas2mono(monomero[entalpia_qH], templete[entalpia_qH], complexo[entalpia_qH])
+                        entalp_DCF_dich_2ACR.append(v_entalpia)
+                        entalp_qH_DCF_dich_2ACR.append(v_entalpia_qH)
+
+                    if templete[nome_template] == 'DCF_dich' and monomero[nome_monomero] == 'ACR_dich' and complexo[nome_complexo] == 'DCF_three_ACR_dichlorom':
+                        v_entalpia = prop_fisicas3mono(monomero[entalpia], templete[entalpia], complexo[entalpia])
+                        v_entalpia_qH = prop_fisicas3mono(monomero[entalpia_qH], templete[entalpia_qH], complexo[entalpia_qH])
+                        entalp_DCF_dich_3ACR.append(v_entalpia)
+                        entalp_qH_DCF_dich_3ACR.append(v_entalpia_qH)
+                    # fim Bloco1
+
+                    # Bloco2: Templete = DCF, Monomero = IA, Solvente = Diclorometano
+                    if templete[nome_template] == 'DCF_dich' and monomero[nome_monomero] == 'IA_dichl' and complexo[nome_complexo] == 'DCF_one_IA_dichlorometh':
+                        v_entalpia = prop_fisicas(monomero[entalpia], templete[entalpia], complexo[entalpia])
+                        v_entalpia_qH = prop_fisicas(monomero[entalpia_qH], templete[entalpia_qH], complexo[entalpia_qH])
+                        entalp_DCF_dich_1IA.append(v_entalpia)
+                        entalp_qH_DCF_dich_1IA.append(v_entalpia_qH)
+
+                    if templete[nome_template] == 'DCF_dich' and monomero[nome_monomero] == 'IA_dichl' and complexo[nome_complexo] == 'DCF_two_IA_dichlorometh':
+                        v_entalpia = prop_fisicas2mono(monomero[entalpia], templete[entalpia], complexo[entalpia])
+                        v_entalpia_qH = prop_fisicas2mono(monomero[entalpia_qH], templete[entalpia_qH], complexo[entalpia_qH])
+                        entalp_DCF_dich_2IA.append(v_entalpia)
+                        entalp_qH_DCF_dich_2IA.append(v_entalpia_qH)
+
+                    if templete[nome_template] == 'DCF_dich' and monomero[nome_monomero] == 'IA_dichl' and complexo[nome_complexo] == 'DCF_three_IA_dichlorome':
+                        v_entalpia = prop_fisicas3mono(monomero[entalpia], templete[entalpia], complexo[entalpia])
+                        v_entalpia_qH = prop_fisicas3mono(monomero[entalpia_qH], templete[entalpia_qH], complexo[entalpia_qH])
+                        entalp_DCF_dich_3IA.append(v_entalpia)
+                        entalp_qH_DCF_dich_3IA.append(v_entalpia_qH)
+                    # fim Bloco2
+
+                    # Bloco3: Templete = DCF, Monomero = MAA, Solvente = Diclorometano
+                    if templete[nome_template] == 'DCF_dich' and monomero[nome_monomero] == 'MAA_dich' and complexo[nome_complexo] == 'DCF_one_MAA_dichloromet':
+                        v_entalpia = prop_fisicas(monomero[entalpia], templete[entalpia], complexo[entalpia])
+                        v_entalpia_qH = prop_fisicas(monomero[entalpia_qH], templete[entalpia_qH], complexo[entalpia_qH])
+                        entalp_DCF_dich_1MAA.append(v_entalpia)
+                        entalp_qH_DCF_dich_1MAA.append(v_entalpia_qH)
+
+                    if templete[nome_template] == 'DCF_dich' and monomero[nome_monomero] == 'MAA_dich' and complexo[nome_complexo] == 'DCF_two_MAA_dichloromet':
+                        v_entalpia = prop_fisicas2mono(monomero[entalpia], templete[entalpia], complexo[entalpia])
+                        v_entalpia_qH = prop_fisicas2mono(monomero[entalpia_qH], templete[entalpia_qH], complexo[entalpia_qH])
+                        entalp_DCF_dich_2MAA.append(v_entalpia)
+                        entalp_qH_DCF_dich_2MAA.append(v_entalpia_qH)
+
+                    if templete[nome_template] == 'DCF_dich' and monomero[nome_monomero] == 'MAA_dich' and complexo[nome_complexo] == 'DCF_three_MAA_dichlorom':
+                        print(monomero[entalpia], templete[entalpia], complexo[entalpia])
+                        v_entalpia = prop_fisicas3mono(monomero[entalpia], templete[entalpia], complexo[entalpia])
+                        v_entalpia_qH = prop_fisicas3mono(monomero[entalpia_qH], templete[entalpia_qH], complexo[entalpia_qH])
+                        entalp_DCF_dich_3MAA.append(v_entalpia)
+                        entalp_qH_DCF_dich_3MAA.append(v_entalpia_qH)
+                    # fim Bloco3
+
+                    # Bloco4: Templete = CBZ, Monomero = VP, Solvente = Diclorometano
+                    if templete[nome_template] == 'DCF_dich' and monomero[nome_monomero] == 'VP_dichl' and complexo[nome_complexo] == 'DCF_one_VP_dichlorometh':
+                        v_entalpia = prop_fisicas(monomero[entalpia], templete[entalpia], complexo[entalpia])
+                        v_entalpia_qH = prop_fisicas(monomero[entalpia_qH], templete[entalpia_qH], complexo[entalpia_qH])
+                        entalp_DCF_dich_1VP.append(v_entalpia)
+                        entalp_qH_DCF_dich_1VP.append(v_entalpia_qH)
+
+
+                    if templete[nome_template] == 'DCF_dich' and monomero[nome_monomero] == 'VP_dichl' and complexo[nome_complexo] == 'DCF_two_VP_dichlorometh':
+                        v_entalpia = prop_fisicas2mono(monomero[entalpia], templete[entalpia], complexo[entalpia])
+                        v_entalpia_qH = prop_fisicas2mono(monomero[entalpia_qH], templete[entalpia_qH], complexo[entalpia_qH])
+                        entalp_DCF_dich_2VP.append(v_entalpia)
+                        entalp_qH_DCF_dich_2VP.append(v_entalpia_qH)
+
+                    if templete[nome_template] == 'DCF_dich' and monomero[nome_monomero] == 'VP_dichl' and complexo[nome_complexo] == 'DCF_three_VP_dichlorome':
+                        v_entalpia = prop_fisicas3mono(monomero[entalpia], templete[entalpia], complexo[entalpia])
+                        v_entalpia_qH = prop_fisicas3mono(monomero[entalpia_qH], templete[entalpia_qH], complexo[entalpia_qH])
+                        entalp_DCF_dich_3VP.append(v_entalpia)
+                        entalp_qH_DCF_dich_3VP.append(v_entalpia_qH)
+                    # fim Bloco4
+
+                    # Bloco1: Templete = DCF, Monomero = ACR, Solvente = Dimetilsufoxido
+                    if templete[nome_template] == 'DCF_dime' and monomero[nome_monomero] == 'ACR_dime' and complexo[nome_complexo] == 'DCF_one_ACR_dimethylsul':
+                        v_entalpia = prop_fisicas(monomero[entalpia], templete[entalpia], complexo[entalpia])
+                        v_entalpia_qH = prop_fisicas(monomero[entalpia_qH], templete[entalpia_qH], complexo[entalpia_qH])
+                        entalp_DCF_dime_1ACR.append(v_entalpia)
+                        entalp_qH_DCF_dime_1ACR.append(v_entalpia_qH)
+
+                    if templete[nome_template] == 'DCF_dime' and monomero[nome_monomero] == 'ACR_dime' and complexo[nome_complexo] == 'DCF_two_ACR_dimethylsul':
+                        v_entalpia = prop_fisicas2mono(monomero[entalpia], templete[entalpia], complexo[entalpia])
+                        v_entalpia_qH = prop_fisicas2mono(monomero[entalpia_qH], templete[entalpia_qH], complexo[entalpia_qH])
+                        entalp_DCF_dime_2ACR.append(v_entalpia)
+                        entalp_qH_DCF_dime_2ACR.append(v_entalpia_qH)
+
+                    if templete[nome_template] == 'DCF_dime' and monomero[nome_monomero] == 'ACR_dime' and complexo[nome_complexo] == 'DCF_three_ACR_dimethyls':
+                        v_entalpia = prop_fisicas3mono(monomero[entalpia], templete[entalpia], complexo[entalpia])
+                        v_entalpia_qH = prop_fisicas3mono(monomero[entalpia_qH], templete[entalpia_qH], complexo[entalpia_qH])
+                        entalp_DCF_dime_3ACR.append(v_entalpia)
+                        entalp_qH_DCF_dime_3ACR.append(v_entalpia_qH)
+                    # fim Bloco1
+
+                    # Bloco2: Templete = DCF, Monomero = IA, Solvente = Dimetilsufoxido
+                    if templete[nome_template] == 'DCF_dime' and monomero[nome_monomero] == 'IA_dimet' and complexo[nome_complexo] == 'DCF_one_IA_dimethylsulf':
+                        v_entalpia = prop_fisicas(monomero[entalpia], templete[entalpia], complexo[entalpia])
+                        v_entalpia_qH = prop_fisicas(monomero[entalpia_qH], templete[entalpia_qH], complexo[entalpia_qH])
+                        entalp_DCF_dime_1IA.append(v_entalpia)
+                        entalp_qH_DCF_dime_1IA.append(v_entalpia_qH)
+
+                    if templete[nome_template] == 'DCF_dime' and monomero[nome_monomero] == 'IA_dimet' and complexo[nome_complexo] == 'DCF_two_IA_dimethylsulf':
+                        v_entalpia = prop_fisicas2mono(monomero[entalpia], templete[entalpia], complexo[entalpia])
+                        v_entalpia_qH = prop_fisicas2mono(monomero[entalpia_qH], templete[entalpia_qH], complexo[entalpia_qH])
+                        entalp_DCF_dime_2IA.append(v_entalpia)
+                        entalp_qH_DCF_dime_2IA.append(v_entalpia_qH)
+
+                    if templete[nome_template] == 'DCF_dime' and monomero[nome_monomero] == 'IA_dimet' and complexo[nome_complexo] == 'DCF_three_IA_dimethylsu':
+                        v_entalpia = prop_fisicas3mono(monomero[entalpia], templete[entalpia], complexo[entalpia])
+                        v_entalpia_qH = prop_fisicas3mono(monomero[entalpia_qH], templete[entalpia_qH], complexo[entalpia_qH])
+                        entalp_DCF_dime_3IA.append(v_entalpia)
+                        entalp_qH_DCF_dime_3IA.append(v_entalpia_qH)
+                    # fim Bloco2
+
+                    # Bloco3: Templete = DCF, Monomero = MAA, Solvente = Diclorometano
+                    if templete[nome_template] == 'DCF_dime' and monomero[nome_monomero] == 'MAA_dime' and complexo[nome_complexo] == 'DCF_one_MAA_dimethylsul':
+                        v_entalpia = prop_fisicas(monomero[entalpia], templete[entalpia], complexo[entalpia])
+                        v_entalpia_qH = prop_fisicas(monomero[entalpia_qH], templete[entalpia_qH], complexo[entalpia_qH])
+                        entalp_DCF_dime_1MAA.append(v_entalpia)
+                        entalp_qH_DCF_dime_1MAA.append(v_entalpia_qH)
+
+                    if templete[nome_template] == 'DCF_dime' and monomero[nome_monomero] == 'MAA_dime' and complexo[nome_complexo] == 'DCF_two_MAA_dimethylsul':
+                        v_entalpia = prop_fisicas2mono(monomero[entalpia], templete[entalpia], complexo[entalpia])
+                        v_entalpia_qH = prop_fisicas2mono(monomero[entalpia_qH], templete[entalpia_qH], complexo[entalpia_qH])
+                        entalp_DCF_dime_2MAA.append(v_entalpia)
+                        entalp_qH_DCF_dime_2MAA.append(v_entalpia_qH)
+
+                    if templete[nome_template] == 'DCF_dime' and monomero[nome_monomero] == 'MAA_dime' and complexo[nome_complexo] == 'DCF_three_MAA_dimethyls':
+                        print(monomero[entalpia], templete[entalpia], complexo[entalpia])
+                        v_entalpia = prop_fisicas3mono(monomero[entalpia], templete[entalpia], complexo[entalpia])
+                        v_entalpia_qH = prop_fisicas3mono(monomero[entalpia_qH], templete[entalpia_qH], complexo[entalpia_qH])
+                        entalp_DCF_dime_3MAA.append(v_entalpia)
+                        entalp_qH_DCF_dime_3MAA.append(v_entalpia_qH)
+                    # fim Bloco3
+
+                    # Bloco4: Templete = CBZ, Monomero = VP, Solvente = Diclorometano
+                    if templete[nome_template] == 'DCF_dime' and monomero[nome_monomero] == 'VP_dimet' and complexo[nome_complexo] == 'DCF_one_VP_dimethylsulf':
+                        v_entalpia = prop_fisicas(monomero[entalpia], templete[entalpia], complexo[entalpia])
+                        v_entalpia_qH = prop_fisicas(monomero[entalpia_qH], templete[entalpia_qH], complexo[entalpia_qH])
+                        entalp_DCF_dime_1VP.append(v_entalpia)
+                        entalp_qH_DCF_dime_1VP.append(v_entalpia_qH)
+
+
+                    if templete[nome_template] == 'DCF_dime' and monomero[nome_monomero] == 'VP_dimet' and complexo[nome_complexo] == 'DCF_two_VP_dimethylsulf':
+                        v_entalpia = prop_fisicas2mono(monomero[entalpia], templete[entalpia], complexo[entalpia])
+                        v_entalpia_qH = prop_fisicas2mono(monomero[entalpia_qH], templete[entalpia_qH], complexo[entalpia_qH])
+                        entalp_DCF_dime_2VP.append(v_entalpia)
+                        entalp_qH_DCF_dime_2VP.append(v_entalpia_qH)
+
+                    if templete[nome_template] == 'DCF_dime' and monomero[nome_monomero] == 'VP_dimet' and complexo[nome_complexo] == 'DCF_three_VP_dimethylsu':
+                        v_entalpia = prop_fisicas3mono(monomero[entalpia], templete[entalpia], complexo[entalpia])
+                        v_entalpia_qH = prop_fisicas3mono(monomero[entalpia_qH], templete[entalpia_qH], complexo[entalpia_qH])
+                        entalp_DCF_dime_3VP.append(v_entalpia)
+                        entalp_qH_DCF_dime_3VP.append(v_entalpia_qH)
+                    # fim Bloco4
+
+                    # Bloco1: Templete = DCF, Monomero = ACR, Solvente = Tetraidrofurano
+                    if templete[nome_template] == 'DCF_tetr' and monomero[nome_monomero] == 'ACR_tetr' and complexo[nome_complexo] == 'DCF_one_ACR_tetrahydrof':
+                        v_entalpia = prop_fisicas(monomero[entalpia], templete[entalpia], complexo[entalpia])
+                        v_entalpia_qH = prop_fisicas(monomero[entalpia_qH], templete[entalpia_qH], complexo[entalpia_qH])
+                        entalp_DCF_tetr_1ACR.append(v_entalpia)
+                        entalp_qH_DCF_tetr_1ACR.append(v_entalpia_qH)
+
+                    if templete[nome_template] == 'DCF_tetr' and monomero[nome_monomero] == 'ACR_tetr' and complexo[nome_complexo] == 'DCF_two_ACR_tetrahydrof':
+                        v_entalpia = prop_fisicas2mono(monomero[entalpia], templete[entalpia], complexo[entalpia])
+                        v_entalpia_qH = prop_fisicas2mono(monomero[entalpia_qH], templete[entalpia_qH], complexo[entalpia_qH])
+                        entalp_DCF_tetr_2ACR.append(v_entalpia)
+                        entalp_qH_DCF_tetr_2ACR.append(v_entalpia_qH)
+
+                    if templete[nome_template] == 'DCF_tetr' and monomero[nome_monomero] == 'ACR_tetr' and complexo[nome_complexo] == 'DCF_three_ACR_tetrahydr':
+                        v_entalpia = prop_fisicas3mono(monomero[entalpia], templete[entalpia], complexo[entalpia])
+                        v_entalpia_qH = prop_fisicas3mono(monomero[entalpia_qH], templete[entalpia_qH], complexo[entalpia_qH])
+                        entalp_DCF_tetr_3ACR.append(v_entalpia)
+                        entalp_qH_DCF_tetr_3ACR.append(v_entalpia_qH)
+                    # fim Bloco1
+
+                    # Bloco2: Templete = DCF, Monomero = IA, Solvente = Tetraidrofurano
+                    if templete[nome_template] == 'DCF_tetr' and monomero[nome_monomero] == 'IA_tetra' and complexo[nome_complexo] == 'DCF_one_IA_tetrahydrofu':
+                        v_entalpia = prop_fisicas(monomero[entalpia], templete[entalpia], complexo[entalpia])
+                        v_entalpia_qH = prop_fisicas(monomero[entalpia_qH], templete[entalpia_qH], complexo[entalpia_qH])
+                        entalp_DCF_tetr_1IA.append(v_entalpia)
+                        entalp_qH_DCF_tetr_1IA.append(v_entalpia_qH)
+
+                    if templete[nome_template] == 'DCF_tetr' and monomero[nome_monomero] == 'IA_tetra' and complexo[nome_complexo] == 'DCF_two_IA_tetrahydrofu':
+                        v_entalpia = prop_fisicas2mono(monomero[entalpia], templete[entalpia], complexo[entalpia])
+                        v_entalpia_qH = prop_fisicas2mono(monomero[entalpia_qH], templete[entalpia_qH], complexo[entalpia_qH])
+                        entalp_DCF_tetr_2IA.append(v_entalpia)
+                        entalp_qH_DCF_tetr_2IA.append(v_entalpia_qH)
+
+                    if templete[nome_template] == 'DCF_tetr' and monomero[nome_monomero] == 'IA_tetra' and complexo[nome_complexo] == 'DCF_three_IA_tetrahydro':
+                        v_entalpia = prop_fisicas3mono(monomero[entalpia], templete[entalpia], complexo[entalpia])
+                        v_entalpia_qH = prop_fisicas3mono(monomero[entalpia_qH], templete[entalpia_qH], complexo[entalpia_qH])
+                        entalp_DCF_tetr_3IA.append(v_entalpia)
+                        entalp_qH_DCF_tetr_3IA.append(v_entalpia_qH)
+                    # fim Bloco2
+
+                    # Bloco3: Templete = DCF, Monomero = MAA, Solvente = Tetraidrofurano
+                    if templete[nome_template] == 'DCF_tetr' and monomero[nome_monomero] == 'MAA_tetr' and complexo[nome_complexo] == 'DCF_one_MAA_tetrahydrof':
+                        v_entalpia = prop_fisicas(monomero[entalpia], templete[entalpia], complexo[entalpia])
+                        v_entalpia_qH = prop_fisicas(monomero[entalpia_qH], templete[entalpia_qH], complexo[entalpia_qH])
+                        entalp_DCF_tetr_1MAA.append(v_entalpia)
+                        entalp_qH_DCF_tetr_1MAA.append(v_entalpia_qH)
+
+                    if templete[nome_template] == 'DCF_tetr' and monomero[nome_monomero] == 'MAA_tetr' and complexo[nome_complexo] == 'DCF_two_MAA_tetrahydrof':
+                        v_entalpia = prop_fisicas2mono(monomero[entalpia], templete[entalpia], complexo[entalpia])
+                        v_entalpia_qH = prop_fisicas2mono(monomero[entalpia_qH], templete[entalpia_qH], complexo[entalpia_qH])
+                        entalp_DCF_tetr_2MAA.append(v_entalpia)
+                        entalp_qH_DCF_tetr_2MAA.append(v_entalpia_qH)
+
+                    if templete[nome_template] == 'DCF_tetr' and monomero[nome_monomero] == 'MAA_tetr' and complexo[nome_complexo] == 'DCF_three_MAA_tetrahydr':
+                        print(monomero[entalpia], templete[entalpia], complexo[entalpia])
+                        v_entalpia = prop_fisicas3mono(monomero[entalpia], templete[entalpia], complexo[entalpia])
+                        v_entalpia_qH = prop_fisicas3mono(monomero[entalpia_qH], templete[entalpia_qH], complexo[entalpia_qH])
+                        entalp_DCF_tetr_3MAA.append(v_entalpia)
+                        entalp_qH_DCF_tetr_3MAA.append(v_entalpia_qH)
+                    # fim Bloco3
+
+                    # Bloco4: Templete = CBZ, Monomero = VP, Solvente = Tetraidrofurano
+                    if templete[nome_template] == 'DCF_tetr' and monomero[nome_monomero] == 'VP_tetra' and complexo[nome_complexo] == 'DCF_one_VP_tetrahydrofu':
+                        v_entalpia = prop_fisicas(monomero[entalpia], templete[entalpia], complexo[entalpia])
+                        v_entalpia_qH = prop_fisicas(monomero[entalpia_qH], templete[entalpia_qH], complexo[entalpia_qH])
+                        entalp_DCF_tetr_1VP.append(v_entalpia)
+                        entalp_qH_DCF_tetr_1VP.append(v_entalpia_qH)
+
+                    if templete[nome_template] == 'DCF_tetr' and monomero[nome_monomero] == 'VP_tetra' and complexo[nome_complexo] == 'DCF_two_VP_tetrahydrofu':
+                        v_entalpia = prop_fisicas2mono(monomero[entalpia], templete[entalpia], complexo[entalpia])
+                        v_entalpia_qH = prop_fisicas2mono(monomero[entalpia_qH], templete[entalpia_qH], complexo[entalpia_qH])
+                        entalp_DCF_tetr_2VP.append(v_entalpia)
+                        entalp_qH_DCF_tetr_2VP.append(v_entalpia_qH)
+
+                    if templete[nome_template] == 'DCF_tetr' and monomero[nome_monomero] == 'VP_tetra' and complexo[nome_complexo] == 'DCF_three_VP_tetrahydro':
+                        v_entalpia = prop_fisicas3mono(monomero[entalpia], templete[entalpia], complexo[entalpia])
+                        v_entalpia_qH = prop_fisicas3mono(monomero[entalpia_qH], templete[entalpia_qH], complexo[entalpia_qH])
+                        entalp_DCF_tetr_3VP.append(v_entalpia)
+                        entalp_qH_DCF_tetr_3VP.append(v_entalpia_qH)
+                    # fim Bloco4
+
+                    ############################################################################
+                    #
+                    # Templete TMP
+                    #
+                    ############################################################################
+                    # Bloco1: Templete = TMP, Monomero = ACR, Solvente = Acetonitrila
+                    if templete[nome_template] == 'TMP_acet' and monomero[nome_monomero] == 'ACR_acet' and complexo[nome_complexo] == 'TMP_one_ACR_acetonitril':
+                        v_entalpia = prop_fisicas(monomero[entalpia], templete[entalpia], complexo[entalpia])
+                        v_entalpia_qH = prop_fisicas(monomero[entalpia_qH], templete[entalpia_qH], complexo[entalpia_qH])
+                        entalp_TMP_acet_1ACR.append(v_entalpia)
+                        entalp_qH_TMP_acet_1ACR.append(v_entalpia_qH)
+
+                    if templete[nome_template] == 'TMP_acet' and monomero[nome_monomero] == 'ACR_acet' and complexo[nome_complexo] == 'TMP_two_ACR_acetonitril':
+                        v_entalpia = prop_fisicas2mono(monomero[entalpia], templete[entalpia], complexo[entalpia])
+                        v_entalpia_qH = prop_fisicas2mono(monomero[entalpia_qH], templete[entalpia_qH], complexo[entalpia_qH])
+                        entalp_TMP_acet_2ACR.append(v_entalpia)
+                        entalp_qH_TMP_acet_2ACR.append(v_entalpia_qH)
+
+                    if templete[nome_template] == 'TMP_acet' and monomero[nome_monomero] == 'ACR_acet' and complexo[nome_complexo] == 'TMP_three_ACR_acetonitr':
+                        v_entalpia = prop_fisicas3mono(monomero[entalpia], templete[entalpia], complexo[entalpia])
+                        v_entalpia_qH = prop_fisicas3mono(monomero[entalpia_qH], templete[entalpia_qH], complexo[entalpia_qH])
+                        entalp_TMP_acet_3ACR.append(v_entalpia)
+                        entalp_qH_TMP_acet_3ACR.append(v_entalpia_qH)
+                    # fim Bloco1
+
+                    # Bloco2: Templete = TMP, Monomero = IA, Solvente = Acetonitrila
+                    if templete[nome_template] == 'TMP_acet' and monomero[nome_monomero] == 'IA_aceto' and complexo[nome_complexo] == 'TMP_one_IA_acetonitrile':
+                        v_entalpia = prop_fisicas(monomero[entalpia], templete[entalpia], complexo[entalpia])
+                        v_entalpia_qH = prop_fisicas(monomero[entalpia_qH], templete[entalpia_qH], complexo[entalpia_qH])
+                        entalp_TMP_acet_1IA.append(v_entalpia)
+                        entalp_qH_TMP_acet_1IA.append(v_entalpia_qH)
+
+                    if templete[nome_template] == 'TMP_acet' and monomero[nome_monomero] == 'IA_aceto' and complexo[nome_complexo] == 'TMP_two_IA_acetonitrile':
+                        v_entalpia = prop_fisicas2mono(monomero[entalpia], templete[entalpia], complexo[entalpia])
+                        v_entalpia_qH = prop_fisicas2mono(monomero[entalpia_qH], templete[entalpia_qH], complexo[entalpia_qH])
+                        entalp_TMP_acet_2IA.append(v_entalpia)
+                        entalp_qH_TMP_acet_2IA.append(v_entalpia_qH)
+
+                    if templete[nome_template] == 'TMP_acet' and monomero[nome_monomero] == 'IA_aceto' and complexo[nome_complexo] == 'TMP_three_IA_acetonitri':
+                        v_entalpia = prop_fisicas3mono(monomero[entalpia], templete[entalpia], complexo[entalpia])
+                        v_entalpia_qH = prop_fisicas3mono(monomero[entalpia_qH], templete[entalpia_qH], complexo[entalpia_qH])
+                        entalp_TMP_acet_3IA.append(v_entalpia)
+                        entalp_qH_TMP_acet_3IA.append(v_entalpia_qH)
+                    # fim Bloco2
+
+                    # Bloco3: Templete = TMP, Monomero = MAA, Solvente = Acetonitrila
+                    if templete[nome_template] == 'TMP_acet' and monomero[nome_monomero] == 'MAA_acet' and complexo[nome_complexo] == 'TMP_one_MAA_acetonitril':
+                        v_entalpia = prop_fisicas(monomero[entalpia], templete[entalpia], complexo[entalpia])
+                        v_entalpia_qH = prop_fisicas(monomero[entalpia_qH], templete[entalpia_qH], complexo[entalpia_qH])
+                        entalp_TMP_acet_1MAA.append(v_entalpia)
+                        entalp_qH_TMP_acet_1MAA.append(v_entalpia_qH)
+
+
+                    if templete[nome_template] == 'TMP_acet' and monomero[nome_monomero] == 'MAA_acet' and complexo[nome_complexo] == 'TMP_two_MAA_acetonitril':
+                        v_entalpia = prop_fisicas2mono(monomero[entalpia], templete[entalpia], complexo[entalpia])
+                        v_entalpia_qH = prop_fisicas2mono(monomero[entalpia_qH], templete[entalpia_qH], complexo[entalpia_qH])
+                        entalp_TMP_acet_2MAA.append(v_entalpia)
+                        entalp_qH_TMP_acet_2MAA.append(v_entalpia_qH)
+
+                    if templete[nome_template] == 'TMP_acet' and monomero[nome_monomero] == 'MAA_acet' and complexo[nome_complexo] == 'TMP_three_MAA_acetonitr':
+                        v_entalpia = prop_fisicas3mono(monomero[entalpia], templete[entalpia], complexo[entalpia])
+                        v_entalpia_qH = prop_fisicas3mono(monomero[entalpia_qH], templete[entalpia_qH], complexo[entalpia_qH])
+                        entalp_TMP_acet_3MAA.append(v_entalpia)
+                        entalp_qH_TMP_acet_3MAA.append(v_entalpia_qH)
+                    # fim Bloco3
+
+                    # Bloco4: Templete = TMP, Monomero = VP, Solvente = Acetonitrila
+                    if templete[nome_template] == 'TMP_acet' and monomero[nome_monomero] == 'VP_aceto' and complexo[nome_complexo] == 'TMP_one_VP_acetonitrile':
+                        v_entalpia = prop_fisicas(monomero[entalpia], templete[entalpia], complexo[entalpia])
+                        v_entalpia_qH = prop_fisicas(monomero[entalpia_qH], templete[entalpia_qH], complexo[entalpia_qH])
+                        entalp_TMP_acet_1VP.append(v_entalpia)
+                        entalp_qH_TMP_acet_1VP.append(v_entalpia_qH)
+
+
+                    if templete[nome_template] == 'TMP_acet' and monomero[nome_monomero] == 'VP_aceto' and complexo[nome_complexo] == 'TMP_two_VP_acetonitrile':
+                        v_entalpia = prop_fisicas2mono(monomero[entalpia], templete[entalpia], complexo[entalpia])
+                        v_entalpia_qH = prop_fisicas2mono(monomero[entalpia_qH], templete[entalpia_qH], complexo[entalpia_qH])
+                        entalp_TMP_acet_2VP.append(v_entalpia)
+                        entalp_qH_TMP_acet_2VP.append(v_entalpia_qH)
+
+                    if templete[nome_template] == 'TMP_acet' and monomero[nome_monomero] == 'VP_aceto' and complexo[nome_complexo] == 'TMP_three_VP_acetonitri':
+                        v_entalpia = prop_fisicas3mono(monomero[entalpia], templete[entalpia], complexo[entalpia])
+                        v_entalpia_qH = prop_fisicas3mono(monomero[entalpia_qH], templete[entalpia_qH], complexo[entalpia_qH])
+                        entalp_TMP_acet_3VP.append(v_entalpia)
+                        entalp_qH_TMP_acet_3VP.append(v_entalpia_qH)
+                    # fim Bloco4
+
+                    # Bloco1: Templete = TMP, Monomero = ACR, Solvente = Diclorometano
+                    if templete[nome_template] == 'TMP_dich' and monomero[nome_monomero] == 'ACR_dich' and complexo[nome_complexo] == 'TMP_one_ACR_dichloromet':
+                        v_entalpia = prop_fisicas(monomero[entalpia], templete[entalpia], complexo[entalpia])
+                        v_entalpia_qH = prop_fisicas(monomero[entalpia_qH], templete[entalpia_qH], complexo[entalpia_qH])
+                        entalp_TMP_dich_1ACR.append(v_entalpia)
+                        entalp_qH_TMP_dich_1ACR.append(v_entalpia_qH)
+
+                    if templete[nome_template] == 'TMP_dich' and monomero[nome_monomero] == 'ACR_dich' and complexo[nome_complexo] == 'TMP_two_ACR_dichloromet':
+                        v_entalpia = prop_fisicas2mono(monomero[entalpia], templete[entalpia], complexo[entalpia])
+                        v_entalpia_qH = prop_fisicas2mono(monomero[entalpia_qH], templete[entalpia_qH], complexo[entalpia_qH])
+                        entalp_TMP_dich_2ACR.append(v_entalpia)
+                        entalp_qH_TMP_dich_2ACR.append(v_entalpia_qH)
+
+                    if templete[nome_template] == 'TMP_dich' and monomero[nome_monomero] == 'ACR_dich' and complexo[nome_complexo] == 'TMP_three_ACR_dichlorom':
+                        v_entalpia = prop_fisicas3mono(monomero[entalpia], templete[entalpia], complexo[entalpia])
+                        v_entalpia_qH = prop_fisicas3mono(monomero[entalpia_qH], templete[entalpia_qH], complexo[entalpia_qH])
+                        entalp_TMP_dich_3ACR.append(v_entalpia)
+                        entalp_qH_TMP_dich_3ACR.append(v_entalpia_qH)
+                    # fim Bloco1
+
+                    # Bloco2: Templete = CBZ, Monomero = IA, Solvente = Diclorometano
+                    if templete[nome_template] == 'TMP_dich' and monomero[nome_monomero] == 'IA_dichl' and complexo[nome_complexo] == 'TMP_one_IA_dichlorometh':
+                        v_entalpia = prop_fisicas(monomero[entalpia], templete[entalpia], complexo[entalpia])
+                        v_entalpia_qH = prop_fisicas(monomero[entalpia_qH], templete[entalpia_qH], complexo[entalpia_qH])
+                        entalp_TMP_dich_1IA.append(v_entalpia)
+                        entalp_qH_TMP_dich_1IA.append(v_entalpia_qH)
+
+                    if templete[nome_template] == 'TMP_dich' and monomero[nome_monomero] == 'IA_dichl' and complexo[nome_complexo] == 'TMP_two_IA_dichlorometh':
+                        v_entalpia = prop_fisicas2mono(monomero[entalpia], templete[entalpia], complexo[entalpia])
+                        v_entalpia_qH = prop_fisicas2mono(monomero[entalpia_qH], templete[entalpia_qH], complexo[entalpia_qH])
+                        entalp_TMP_dich_2IA.append(v_entalpia)
+                        entalp_qH_TMP_dich_2IA.append(v_entalpia_qH)
+
+                    if templete[nome_template] == 'TMP_dich' and monomero[nome_monomero] == 'IA_dichl' and complexo[nome_complexo] == 'TMP_three_IA_dichlorome':
+                        v_entalpia = prop_fisicas3mono(monomero[entalpia], templete[entalpia], complexo[entalpia])
+                        v_entalpia_qH = prop_fisicas3mono(monomero[entalpia_qH], templete[entalpia_qH], complexo[entalpia_qH])
+                        entalp_TMP_dich_3IA.append(v_entalpia)
+                        entalp_qH_TMP_dich_3IA.append(v_entalpia_qH)
+                    # fim Bloco2
+
+                    # Bloco3: Templete = TMP, Monomero = MAA, Solvente = Diclorometano
+                    if templete[nome_template] == 'TMP_dich' and monomero[nome_monomero] == 'MAA_dich' and complexo[nome_complexo] == 'TMP_one_MAA_dichloromet':
+                        v_entalpia = prop_fisicas(monomero[entalpia], templete[entalpia], complexo[entalpia])
+                        v_entalpia_qH = prop_fisicas(monomero[entalpia_qH], templete[entalpia_qH], complexo[entalpia_qH])
+                        entalp_TMP_dich_1MAA.append(v_entalpia)
+                        entalp_qH_TMP_dich_1MAA.append(v_entalpia_qH)
+
+
+                    if templete[nome_template] == 'TMP_dich' and monomero[nome_monomero] == 'MAA_dich' and complexo[nome_complexo] == 'TMP_two_MAA_dichloromet':
+                        v_entalpia = prop_fisicas2mono(monomero[entalpia], templete[entalpia], complexo[entalpia])
+                        v_entalpia_qH = prop_fisicas2mono(monomero[entalpia_qH], templete[entalpia_qH], complexo[entalpia_qH])
+                        entalp_TMP_dich_2MAA.append(v_entalpia)
+                        entalp_qH_TMP_dich_2MAA.append(v_entalpia_qH)
+
+                    if templete[nome_template] == 'TMP_dich' and monomero[nome_monomero] == 'MAA_dich' and complexo[nome_complexo] == 'TMP_three_MAA_dichlorom':
+                        v_entalpia = prop_fisicas3mono(monomero[entalpia], templete[entalpia], complexo[entalpia])
+                        v_entalpia_qH = prop_fisicas3mono(monomero[entalpia_qH], templete[entalpia_qH], complexo[entalpia_qH])
+                        entalp_TMP_dich_3MAA.append(v_entalpia)
+                        entalp_qH_TMP_dich_3MAA.append(v_entalpia_qH)
+                    # fim Bloco3
+
+                    # Bloco4: Templete = TMP, Monomero = VP, Solvente = Diclorometano
+                    if templete[nome_template] == 'TMP_dich' and monomero[nome_monomero] == 'VP_dichl' and complexo[nome_complexo] == 'TMP_one_VP_dichlorometh':
+                        v_entalpia = prop_fisicas(monomero[entalpia], templete[entalpia], complexo[entalpia])
+                        v_entalpia_qH = prop_fisicas(monomero[entalpia_qH], templete[entalpia_qH], complexo[entalpia_qH])
+                        entalp_TMP_dich_1VP.append(v_entalpia)
+                        entalp_qH_TMP_dich_1VP.append(v_entalpia_qH)
+
+
+                    if templete[nome_template] == 'TMP_dich' and monomero[nome_monomero] == 'VP_dichl' and complexo[nome_complexo] == 'TMP_two_VP_dichlorometh':
+                        v_entalpia = prop_fisicas2mono(monomero[entalpia], templete[entalpia], complexo[entalpia])
+                        v_entalpia_qH = prop_fisicas2mono(monomero[entalpia_qH], templete[entalpia_qH], complexo[entalpia_qH])
+                        entalp_TMP_dich_2VP.append(v_entalpia)
+                        entalp_qH_TMP_dich_2VP.append(v_entalpia_qH)
+
+                    if templete[nome_template] == 'TMP_dich' and monomero[nome_monomero] == 'VP_dichl' and complexo[nome_complexo] == 'TMP_three_VP_dichlorome':
+                        v_entalpia = prop_fisicas3mono(monomero[entalpia], templete[entalpia], complexo[entalpia])
+                        v_entalpia_qH = prop_fisicas3mono(monomero[entalpia_qH], templete[entalpia_qH], complexo[entalpia_qH])
+                        entalp_TMP_dich_3VP.append(v_entalpia)
+                        entalp_qH_TMP_dich_3VP.append(v_entalpia_qH)
+                    # fim Bloco4
+
+                    # Bloco1: Templete = TMP, Monomero = ACR, Solvente = Dimetilsufoxido
+                    if templete[nome_template] == 'TMP_dime' and monomero[nome_monomero] == 'ACR_dime' and complexo[nome_complexo] == 'TMP_one_ACR_dimethylsul':
+                        v_entalpia = prop_fisicas(monomero[entalpia], templete[entalpia], complexo[entalpia])
+                        v_entalpia_qH = prop_fisicas(monomero[entalpia_qH], templete[entalpia_qH], complexo[entalpia_qH])
+                        entalp_TMP_dime_1ACR.append(v_entalpia)
+                        entalp_qH_TMP_dime_1ACR.append(v_entalpia_qH)
+
+                    if templete[nome_template] == 'TMP_dime' and monomero[nome_monomero] == 'ACR_dime' and complexo[nome_complexo] == 'TMP_two_ACR_dimethylsul':
+                        v_entalpia = prop_fisicas2mono(monomero[entalpia], templete[entalpia], complexo[entalpia])
+                        v_entalpia_qH = prop_fisicas2mono(monomero[entalpia_qH], templete[entalpia_qH], complexo[entalpia_qH])
+                        entalp_TMP_dime_2ACR.append(v_entalpia)
+                        entalp_qH_TMP_dime_2ACR.append(v_entalpia_qH)
+
+                    if templete[nome_template] == 'TMP_dime' and monomero[nome_monomero] == 'ACR_dime' and complexo[nome_complexo] == 'TMP_three_ACR_dimethyls':
+                        v_entalpia = prop_fisicas3mono(monomero[entalpia], templete[entalpia], complexo[entalpia])
+                        v_entalpia_qH = prop_fisicas3mono(monomero[entalpia_qH], templete[entalpia_qH], complexo[entalpia_qH])
+                        entalp_TMP_dime_3ACR.append(v_entalpia)
+                        entalp_qH_TMP_dime_3ACR.append(v_entalpia_qH)
+                    # fim Bloco1
+
+                    # Bloco2: Templete = TMP, Monomero = IA, Solvente = Dimetilsufoxido
+                    if templete[nome_template] == 'TMP_dime' and monomero[nome_monomero] == 'IA_dimet' and complexo[nome_complexo] == 'TMP_one_IA_dimethylsulf':
+                        v_entalpia = prop_fisicas(monomero[entalpia], templete[entalpia], complexo[entalpia])
+                        v_entalpia_qH = prop_fisicas(monomero[entalpia_qH], templete[entalpia_qH], complexo[entalpia_qH])
+                        entalp_TMP_dime_1IA.append(v_entalpia)
+                        entalp_qH_TMP_dime_1IA.append(v_entalpia_qH)
+
+                    if templete[nome_template] == 'TMP_dime' and monomero[nome_monomero] == 'IA_dimet' and complexo[nome_complexo] == 'TMP_two_IA_dimethylsulf':
+                        v_entalpia = prop_fisicas2mono(monomero[entalpia], templete[entalpia], complexo[entalpia])
+                        v_entalpia_qH = prop_fisicas2mono(monomero[entalpia_qH], templete[entalpia_qH], complexo[entalpia_qH])
+                        entalp_TMP_dime_2IA.append(v_entalpia)
+                        entalp_qH_TMP_dime_2IA.append(v_entalpia_qH)
+
+                    if templete[nome_template] == 'TMP_dime' and monomero[nome_monomero] == 'IA_dimet' and complexo[nome_complexo] == 'TMP_three_IA_dimethylsu':
+                        v_entalpia = prop_fisicas3mono(monomero[entalpia], templete[entalpia], complexo[entalpia])
+                        v_entalpia_qH = prop_fisicas3mono(monomero[entalpia_qH], templete[entalpia_qH], complexo[entalpia_qH])
+                        entalp_TMP_dime_3IA.append(v_entalpia)
+                        entalp_qH_TMP_dime_3IA.append(v_entalpia_qH)
+                    # fim Bloco2
+
+                    # Bloco3: Templete = TMP, Monomero = MAA, Solvente = Dimetilsufoxido
+                    if templete[nome_template] == 'TMP_dime' and monomero[nome_monomero] == 'MAA_dime' and complexo[nome_complexo] == 'TMP_one_MAA_dimethylsul':
+                        v_entalpia = prop_fisicas(monomero[entalpia], templete[entalpia], complexo[entalpia])
+                        v_entalpia_qH = prop_fisicas(monomero[entalpia_qH], templete[entalpia_qH], complexo[entalpia_qH])
+                        entalp_TMP_dime_1MAA.append(v_entalpia)
+                        entalp_qH_TMP_dime_1MAA.append(v_entalpia_qH)
+
+                    if templete[nome_template] == 'TMP_dime' and monomero[nome_monomero] == 'MAA_dime' and complexo[nome_complexo] == 'TMP_two_MAA_dimethylsul':
+                        v_entalpia = prop_fisicas2mono(monomero[entalpia], templete[entalpia], complexo[entalpia])
+                        v_entalpia_qH = prop_fisicas2mono(monomero[entalpia_qH], templete[entalpia_qH], complexo[entalpia_qH])
+                        entalp_TMP_dime_2MAA.append(v_entalpia)
+                        entalp_qH_TMP_dime_2MAA.append(v_entalpia_qH)
+
+                    if templete[nome_template] == 'TMP_dime' and monomero[nome_monomero] == 'MAA_dime' and complexo[nome_complexo] == 'TMP_three_MAA_dimethyls':
+                        v_entalpia = prop_fisicas3mono(monomero[entalpia], templete[entalpia], complexo[entalpia])
+                        v_entalpia_qH = prop_fisicas3mono(monomero[entalpia_qH], templete[entalpia_qH], complexo[entalpia_qH])
+                        entalp_TMP_dime_3MAA.append(v_entalpia)
+                        entalp_qH_TMP_dime_3MAA.append(v_entalpia_qH)
+                    # fim Bloco3
+
+                    # Bloco4: Templete = TMP, Monomero = VP, Solvente = Dimetilsufoxido
+                    if templete[nome_template] == 'TMP_dime' and monomero[nome_monomero] == 'VP_dimet' and complexo[nome_complexo] == 'TMP_one_VP_dimethylsulf':
+                        v_entalpia = prop_fisicas(monomero[entalpia], templete[entalpia], complexo[entalpia])
+                        v_entalpia_qH = prop_fisicas(monomero[entalpia_qH], templete[entalpia_qH], complexo[entalpia_qH])
+                        entalp_TMP_dime_1VP.append(v_entalpia)
+                        entalp_qH_TMP_dime_1VP.append(v_entalpia_qH)
+
+                    if templete[nome_template] == 'TMP_dime' and monomero[nome_monomero] == 'VP_dimet' and complexo[nome_complexo] == 'TMP_two_VP_dimethylsulf':
+                        v_entalpia = prop_fisicas2mono(monomero[entalpia], templete[entalpia], complexo[entalpia])
+                        v_entalpia_qH = prop_fisicas2mono(monomero[entalpia_qH], templete[entalpia_qH], complexo[entalpia_qH])
+                        entalp_TMP_dime_2VP.append(v_entalpia)
+                        entalp_qH_TMP_dime_2VP.append(v_entalpia_qH)
+
+                    if templete[nome_template] == 'TMP_dime' and monomero[nome_monomero] == 'VP_dimet' and complexo[nome_complexo] == 'TMP_three_VP_dimethylsu':
+                        v_entalpia = prop_fisicas3mono(monomero[entalpia], templete[entalpia], complexo[entalpia])
+                        v_entalpia_qH = prop_fisicas3mono(monomero[entalpia_qH], templete[entalpia_qH], complexo[entalpia_qH])
+                        entalp_TMP_dime_3VP.append(v_entalpia)
+                        entalp_qH_TMP_dime_3VP.append(v_entalpia_qH)
+                    # fim Bloco4
+                    '''
+                    # Bloco1: Templete = TMP, Monomero = ACR, Solvente = Tetraidrofurano
+                    if templete[nome_template] == 'TMP_tetr' and monomero[nome_monomero] == 'ACR_tetr' and complexo[nome_complexo] == 'TMP_one_ACR_tetrahydrof':
+                        v_entalpia = prop_fisicas(monomero[entalpia], templete[entalpia], complexo[entalpia])
+                        v_entalpia_qH = prop_fisicas(monomero[entalpia_qH], templete[entalpia_qH], complexo[entalpia_qH])
+                        entalp_TMP_tetr_1ACR.append(v_entalpia)
+                        entalp_qH_TMP_tetr_1ACR.append(v_entalpia_qH)
+
+                    if templete[nome_template] == 'TMP_tetr' and monomero[nome_monomero] == 'ACR_tetr' and complexo[nome_complexo] == 'TMP_two_ACR_tetrahydrof':
+                        v_entalpia = prop_fisicas2mono(monomero[entalpia], templete[entalpia], complexo[entalpia])
+                        v_entalpia_qH = prop_fisicas2mono(monomero[entalpia_qH], templete[entalpia_qH], complexo[entalpia_qH])
+                        entalp_TMP_tetr_2ACR.append(v_entalpia)
+                        entalp_qH_TMP_tetr_2ACR.append(v_entalpia_qH)
+
+                    if templete[nome_template] == 'TMP_tetr' and monomero[nome_monomero] == 'ACR_tetr' and complexo[nome_complexo] == 'TMP_three_ACR_tetrahydr':
+                        v_entalpia = prop_fisicas3mono(monomero[entalpia], templete[entalpia], complexo[entalpia])
+                        v_entalpia_qH = prop_fisicas3mono(monomero[entalpia_qH], templete[entalpia_qH], complexo[entalpia_qH])
+                        entalp_TMP_tetr_3ACR.append(v_entalpia)
+                        entalp_qH_TMP_tetr_3ACR.append(v_entalpia_qH)
+                    # fim Bloco1
+
+                    # Bloco2: Templete = TMP, Monomero = IA, Solvente = Tetraidrofurano
+                    if templete[nome_template] == 'TMP_tetr' and monomero[nome_monomero] == 'IA_tetra' and complexo[nome_complexo] == 'TMP_one_IA_tetrahydrofu':
+                        v_entalpia = prop_fisicas(monomero[entalpia], templete[entalpia], complexo[entalpia])
+                        v_entalpia_qH = prop_fisicas(monomero[entalpia_qH], templete[entalpia_qH], complexo[entalpia_qH])
+                        entalp_TMP_tetr_1IA.append(v_entalpia)
+                        entalp_qH_TMP_tetr_1IA.append(v_entalpia_qH)
+
+                    if templete[nome_template] == 'TMP_tetr' and monomero[nome_monomero] == 'IA_tetra' and complexo[nome_complexo] == 'TMP_two_IA_tetrahydrofu':
+                        v_entalpia = prop_fisicas2mono(monomero[entalpia], templete[entalpia], complexo[entalpia])
+                        v_entalpia_qH = prop_fisicas2mono(monomero[entalpia_qH], templete[entalpia_qH], complexo[entalpia_qH])
+                        entalp_TMP_tetr_2IA.append(v_entalpia)
+                        entalp_qH_TMP_tetr_2IA.append(v_entalpia_qH)
+
+                    if templete[nome_template] == 'TMP_tetr' and monomero[nome_monomero] == 'IA_tetra' and complexo[nome_complexo] == 'TMP_three_IA_tetrahydro':
+                        v_entalpia = prop_fisicas3mono(monomero[entalpia], templete[entalpia], complexo[entalpia])
+                        v_entalpia_qH = prop_fisicas3mono(monomero[entalpia_qH], templete[entalpia_qH], complexo[entalpia_qH])
+                        entalp_TMP_tetr_3IA.append(v_entalpia)
+                        entalp_qH_TMP_tetr_3IA.append(v_entalpia_qH)
+                    # fim Bloco2
+
+                    # Bloco3: Templete = TMP, Monomero = MAA, Solvente = Tetraidrofurano
+                    if templete[nome_template] == 'TMP_tetr' and monomero[nome_monomero] == 'MAA_tetr' and complexo[nome_complexo] == 'TMP_one_MAA_tetrahydrof':
+                        v_entalpia = prop_fisicas(monomero[entalpia], templete[entalpia], complexo[entalpia])
+                        v_entalpia_qH = prop_fisicas(monomero[entalpia_qH], templete[entalpia_qH], complexo[entalpia_qH])
+                        entalp_TMP_tetr_1MAA.append(v_entalpia)
+                        entalp_qH_TMP_tetr_1MAA.append(v_entalpia_qH)
+
+                    if templete[nome_template] == 'TMP_tetr' and monomero[nome_monomero] == 'MAA_tetr' and complexo[nome_complexo] == 'TMP_two_MAA_tetrahydrof':
+                        v_entalpia = prop_fisicas2mono(monomero[entalpia], templete[entalpia], complexo[entalpia])
+                        v_entalpia_qH = prop_fisicas2mono(monomero[entalpia_qH], templete[entalpia_qH], complexo[entalpia_qH])
+                        entalp_TMP_tetr_2MAA.append(v_entalpia)
+                        entalp_qH_TMP_tetr_2MAA.append(v_entalpia_qH)
+
+                    if templete[nome_template] == 'TMP_tetr' and monomero[nome_monomero] == 'MAA_tetr' and complexo[nome_complexo] == 'TMP_three_MAA_tetrahydr':
+                        print(monomero[entalpia], templete[entalpia], complexo[entalpia])
+                        v_entalpia = prop_fisicas3mono(monomero[entalpia], templete[entalpia], complexo[entalpia])
+                        v_entalpia_qH = prop_fisicas3mono(monomero[entalpia_qH], templete[entalpia_qH], complexo[entalpia_qH])
+                        entalp_TMP_tetr_3MAA.append(v_entalpia)
+                        entalp_qH_TMP_tetr_3MAA.append(v_entalpia_qH)
+                    # fim Bloco3
+
+                    # Bloco4: Templete = TMP, Monomero = VP, Solvente = Tetraidrofurano
+                    if templete[nome_template] == 'TMP_tetr' and monomero[nome_monomero] == 'VP_tetra' and complexo[nome_complexo] == 'TMP_one_VP_tetrahydrofu':
+                        v_entalpia = prop_fisicas(monomero[entalpia], templete[entalpia], complexo[entalpia])
+                        v_entalpia_qH = prop_fisicas(monomero[entalpia_qH], templete[entalpia_qH], complexo[entalpia_qH])
+                        entalp_TMP_tetr_1VP.append(v_entalpia)
+                        entalp_qH_TMP_tetr_1VP.append(v_entalpia_qH)
+
+                    if templete[nome_template] == 'TMP_tetr' and monomero[nome_monomero] == 'VP_tetra' and complexo[nome_complexo] == 'TMP_two_VP_tetrahydrofu':
+                        v_entalpia = prop_fisicas2mono(monomero[entalpia], templete[entalpia], complexo[entalpia])
+                        v_entalpia_qH = prop_fisicas2mono(monomero[entalpia_qH], templete[entalpia_qH], complexo[entalpia_qH])
+                        entalp_TMP_tetr_2VP.append(v_entalpia)
+                        entalp_qH_TMP_tetr_2VP.append(v_entalpia_qH)
+
+                    if templete[nome_template] == 'TMP_tetr' and monomero[nome_monomero] == 'VP_tetra' and complexo[nome_complexo] == 'TMP_three_VP_tetrahydro':
+                        v_entalpia = prop_fisicas3mono(monomero[entalpia], templete[entalpia], complexo[entalpia])
+                        v_entalpia_qH = prop_fisicas3mono(monomero[entalpia_qH], templete[entalpia_qH], complexo[entalpia_qH])
+                        entalp_TMP_tetr_3VP.append(v_entalpia)
+                        entalp_qH_TMP_tetr_3VP.append(v_entalpia_qH)
+                    # fim Bloco4
             '''
-            # Graficos Acetonitrila
+            ####################################################################
+            #
+            # Graficos
+            #
+            ####################################################################
+
+
+            # Graficos CBZ Acetonitrila
             if templete[nome_template] == 'CBZ_acet' and monomero[nome_monomero] == 'ACR_acet' \
                and monomero1 == 'ACR' and propriedade_geral1 == 'entalpia':
                graficando_propriedades(interval_temp,
@@ -718,7 +1621,6 @@ if __name__ == '__main__':
                                       entalp_CBZ_acet_2IA, entalp_qH_CBZ_acet_2IA,
                                       entalp_CBZ_acet_3IA, entalp_qH_CBZ_acet_3IA,
                                       monomero2, solvente1, templete1, propriedade_geral1)
-
             if templete[nome_template] == 'CBZ_acet' and monomero[nome_monomero] == 'MAA_acet' \
               and monomero3 == 'MAA' and propriedade_geral1 == 'entalpia':
               graficando_propriedades(interval_temp,
@@ -793,7 +1695,6 @@ if __name__ == '__main__':
                                        entalp_CBZ_dime_2VP, entalp_qH_CBZ_dime_2VP,
                                        entalp_CBZ_dime_3VP, entalp_qH_CBZ_dime_3VP,
                                        monomero4, solvente3, templete1, propriedade_geral1)
-            '''
             # Graficos  CBZ Tetraidrofurano
             if templete[nome_template] == 'CBZ_tetr' and monomero[nome_monomero] == 'ACR_tetr' \
                and monomero1 == 'ACR' and propriedade_geral1 == 'entalpia':
@@ -824,6 +1725,258 @@ if __name__ == '__main__':
                                        entalp_CBZ_tetr_3VP, entalp_qH_CBZ_tetr_3VP,
                                        monomero4, solvente4, templete1, propriedade_geral1)
 
+
+            # Graficos DCF Acetonitrila
+            if templete[nome_template] == 'DCF_acet' and monomero[nome_monomero] == 'ACR_acet' \
+               and monomero1 == 'ACR' and propriedade_geral1 == 'entalpia':
+               graficando_propriedades(interval_temp,
+                                       entalp_DCF_acet_1ACR, entalp_qH_DCF_acet_1ACR,
+                                       entalp_DCF_acet_2ACR, entalp_qH_DCF_acet_2ACR,
+                                       entalp_DCF_acet_3ACR, entalp_qH_DCF_acet_3ACR,
+                                       monomero1, solvente1, templete2, propriedade_geral1)
+            if templete[nome_template] == 'DCF_acet' and monomero[nome_monomero] == 'IA_aceto' \
+              and monomero2 == 'IA' and propriedade_geral1 == 'entalpia':
+              graficando_propriedades(interval_temp,
+                                      entalp_DCF_acet_1IA, entalp_qH_DCF_acet_1IA,
+                                      entalp_DCF_acet_2IA, entalp_qH_DCF_acet_2IA,
+                                      entalp_DCF_acet_3IA, entalp_qH_DCF_acet_3IA,
+                                      monomero2, solvente1, templete2, propriedade_geral1)
+            if templete[nome_template] == 'DCF_acet' and monomero[nome_monomero] == 'MAA_acet' \
+              and monomero3 == 'MAA' and propriedade_geral1 == 'entalpia':
+              print(entalp_DCF_acet_1MAA)
+              print(entalp_qH_DCF_acet_1MAA)
+              print(entalp_DCF_acet_2MAA)
+              print(entalp_qH_DCF_acet_2MAA)
+              print(entalp_DCF_acet_3MAA)
+              print(entalp_qH_DCF_acet_3MAA)
+              graficando_propriedades(interval_temp,
+                                      entalp_DCF_acet_1MAA, entalp_qH_DCF_acet_1MAA,
+                                      entalp_DCF_acet_2MAA, entalp_qH_DCF_acet_2MAA,
+                                      entalp_DCF_acet_3MAA, entalp_qH_DCF_acet_3MAA,
+                                      monomero3, solvente1, templete2, propriedade_geral1)
+            if templete[nome_template] == 'DCF_acet' and monomero[nome_monomero] == 'VP_aceto' \
+              and monomero4 == 'VP' and propriedade_geral1 == 'entalpia':
+              graficando_propriedades(interval_temp,
+                                      entalp_DCF_acet_1VP, entalp_qH_DCF_acet_1VP,
+                                      entalp_DCF_acet_2VP, entalp_qH_DCF_acet_2VP,
+                                      entalp_DCF_acet_3VP, entalp_qH_DCF_acet_3VP,
+                                      monomero4, solvente1, templete2, propriedade_geral1)
+
+            # Graficos DCF Diclorometano
+            if templete[nome_template] == 'DCF_dich' and monomero[nome_monomero] == 'ACR_dich' \
+               and monomero1 == 'ACR' and propriedade_geral1 == 'entalpia':
+               graficando_propriedades(interval_temp,
+                                       entalp_DCF_dich_1ACR, entalp_qH_DCF_dich_1ACR,
+                                       entalp_DCF_dich_2ACR, entalp_qH_DCF_dich_2ACR,
+                                       entalp_DCF_dich_3ACR, entalp_qH_DCF_dich_3ACR,
+                                       monomero1, solvente2, templete2, propriedade_geral1)
+            if templete[nome_template] == 'DCF_dich' and monomero[nome_monomero] == 'IA_dichl' \
+              and monomero2 == 'IA' and propriedade_geral1 == 'entalpia':
+              graficando_propriedades(interval_temp,
+                                      entalp_DCF_dich_1IA, entalp_qH_DCF_dich_1IA,
+                                      entalp_DCF_dich_2IA, entalp_qH_DCF_dich_2IA,
+                                      entalp_DCF_dich_3IA, entalp_qH_DCF_dich_3IA,
+                                      monomero2, solvente2, templete2, propriedade_geral1)
+            if templete[nome_template] == 'DCF_dich' and monomero[nome_monomero] == 'MAA_dich' \
+              and monomero3 == 'MAA' and propriedade_geral1 == 'entalpia':
+              graficando_propriedades(interval_temp,
+                                      entalp_DCF_dich_1MAA, entalp_qH_DCF_dich_1MAA,
+                                      entalp_DCF_dich_2MAA, entalp_qH_DCF_dich_2MAA,
+                                      entalp_DCF_dich_3MAA, entalp_qH_DCF_dich_3MAA,
+                                      monomero3, solvente2, templete2, propriedade_geral1)
+            if templete[nome_template] == 'DCF_dich' and monomero[nome_monomero] == 'VP_dichl' \
+              and monomero4 == 'VP' and propriedade_geral1 == 'entalpia':
+              graficando_propriedades(interval_temp,
+                                      entalp_DCF_dich_1VP, entalp_qH_DCF_dich_1VP,
+                                      entalp_DCF_dich_2VP, entalp_qH_DCF_dich_2VP,
+                                      entalp_DCF_dich_3VP, entalp_qH_DCF_dich_3VP,
+                                      monomero4, solvente2, templete2, propriedade_geral1)
+
+            # Graficos DCF Dimetilsufoxido
+            if templete[nome_template] == 'DCF_dime' and monomero[nome_monomero] == 'ACR_dime' \
+               and monomero1 == 'ACR' and propriedade_geral1 == 'entalpia':
+               graficando_propriedades(interval_temp,
+                                       entalp_DCF_dime_1ACR, entalp_qH_DCF_dime_1ACR,
+                                       entalp_DCF_dime_2ACR, entalp_qH_DCF_dime_2ACR,
+                                       entalp_DCF_dime_3ACR, entalp_qH_DCF_dime_3ACR,
+                                       monomero1, solvente3, templete2, propriedade_geral1)
+            if templete[nome_template] == 'DCF_dime' and monomero[nome_monomero] == 'IA_dimet' \
+              and monomero2 == 'IA' and propriedade_geral1 == 'entalpia':
+              graficando_propriedades(interval_temp,
+                                      entalp_DCF_dime_1IA, entalp_qH_DCF_dime_1IA,
+                                      entalp_DCF_dime_2IA, entalp_qH_DCF_dime_2IA,
+                                      entalp_DCF_dime_3IA, entalp_qH_DCF_dime_3IA,
+                                      monomero2, solvente3, templete2, propriedade_geral1)
+            if templete[nome_template] == 'DCF_dime' and monomero[nome_monomero] == 'MAA_dime' \
+              and monomero3 == 'MAA' and propriedade_geral1 == 'entalpia':
+              graficando_propriedades(interval_temp,
+                                      entalp_DCF_dime_1MAA, entalp_qH_DCF_dime_1MAA,
+                                      entalp_DCF_dime_2MAA, entalp_qH_DCF_dime_2MAA,
+                                      entalp_DCF_dime_3MAA, entalp_qH_DCF_dime_3MAA,
+                                      monomero3, solvente3, templete2, propriedade_geral1)
+            if templete[nome_template] == 'DCF_dime' and monomero[nome_monomero] == 'VP_dimet' \
+              and monomero4 == 'VP' and propriedade_geral1 == 'entalpia':
+              graficando_propriedades(interval_temp,
+                                      entalp_DCF_dime_1VP, entalp_qH_DCF_dime_1VP,
+                                      entalp_DCF_dime_2VP, entalp_qH_DCF_dime_2VP,
+                                      entalp_DCF_dime_3VP, entalp_qH_DCF_dime_3VP,
+                                      monomero4, solvente3, templete2, propriedade_geral1)
+
+            # Graficos DCF Tetraidrofurano
+            if templete[nome_template] == 'DCF_tetr' and monomero[nome_monomero] == 'ACR_tetr' \
+               and monomero1 == 'ACR' and propriedade_geral1 == 'entalpia':
+               graficando_propriedades(interval_temp,
+                                       entalp_DCF_tetr_1ACR, entalp_qH_DCF_tetr_1ACR,
+                                       entalp_DCF_tetr_2ACR, entalp_qH_DCF_tetr_2ACR,
+                                       entalp_DCF_tetr_3ACR, entalp_qH_DCF_tetr_3ACR,
+                                       monomero1, solvente4, templete2, propriedade_geral1)
+            if templete[nome_template] == 'DCF_tetr' and monomero[nome_monomero] == 'IA_tetra' \
+              and monomero2 == 'IA' and propriedade_geral1 == 'entalpia':
+              graficando_propriedades(interval_temp,
+                                      entalp_DCF_tetr_1IA, entalp_qH_DCF_tetr_1IA,
+                                      entalp_DCF_tetr_2IA, entalp_qH_DCF_tetr_2IA,
+                                      entalp_DCF_tetr_3IA, entalp_qH_DCF_tetr_3IA,
+                                      monomero2, solvente4, templete2, propriedade_geral1)
+            if templete[nome_template] == 'DCF_tetr' and monomero[nome_monomero] == 'MAA_tetr' \
+              and monomero3 == 'MAA' and propriedade_geral1 == 'entalpia':
+              graficando_propriedades(interval_temp,
+                                      entalp_DCF_tetr_1MAA, entalp_qH_DCF_tetr_1MAA,
+                                      entalp_DCF_tetr_2MAA, entalp_qH_DCF_tetr_2MAA,
+                                      entalp_DCF_tetr_3MAA, entalp_qH_DCF_tetr_3MAA,
+                                      monomero3, solvente4, templete2, propriedade_geral1)
+            if templete[nome_template] == 'DCF_tetr' and monomero[nome_monomero] == 'VP_tetra' \
+              and monomero4 == 'VP' and propriedade_geral1 == 'entalpia':
+              graficando_propriedades(interval_temp,
+                                      entalp_DCF_tetr_1VP, entalp_qH_DCF_tetr_1VP,
+                                      entalp_DCF_tetr_2VP, entalp_qH_DCF_tetr_2VP,
+                                      entalp_DCF_tetr_3VP, entalp_qH_DCF_tetr_3VP,
+                                      monomero4, solvente4, templete2, propriedade_geral1)
+
+            # Graficos TMP Acetonitrila
+            if templete[nome_template] == 'TMP_acet' and monomero[nome_monomero] == 'ACR_acet' \
+               and monomero1 == 'ACR' and propriedade_geral1 == 'entalpia':
+               graficando_propriedades(interval_temp,
+                                       entalp_TMP_acet_1ACR, entalp_qH_TMP_acet_1ACR,
+                                       entalp_TMP_acet_2ACR, entalp_qH_TMP_acet_2ACR,
+                                       entalp_TMP_acet_3ACR, entalp_qH_TMP_acet_3ACR,
+                                       monomero1, solvente1, templete3, propriedade_geral1)
+            if templete[nome_template] == 'TMP_acet' and monomero[nome_monomero] == 'IA_aceto' \
+              and monomero2 == 'IA' and propriedade_geral1 == 'entalpia':
+              graficando_propriedades(interval_temp,
+                                      entalp_TMP_acet_1IA, entalp_qH_TMP_acet_1IA,
+                                      entalp_TMP_acet_2IA, entalp_qH_TMP_acet_2IA,
+                                      entalp_TMP_acet_3IA, entalp_qH_TMP_acet_3IA,
+                                      monomero2, solvente1, templete3, propriedade_geral1)
+            if templete[nome_template] == 'TMP_acet' and monomero[nome_monomero] == 'MAA_acet' \
+              and monomero3 == 'MAA' and propriedade_geral1 == 'entalpia':
+              print(entalp_TMP_acet_1MAA)
+              print(entalp_qH_TMP_acet_1MAA)
+              print(entalp_TMP_acet_2MAA)
+              print(entalp_qH_TMP_acet_2MAA)
+              print(entalp_TMP_acet_3MAA)
+              print(entalp_qH_TMP_acet_3MAA)
+              graficando_propriedades(interval_temp,
+                                      entalp_TMP_acet_1MAA, entalp_qH_TMP_acet_1MAA,
+                                      entalp_TMP_acet_2MAA, entalp_qH_TMP_acet_2MAA,
+                                      entalp_TMP_acet_3MAA, entalp_qH_TMP_acet_3MAA,
+                                      monomero3, solvente1, templete3, propriedade_geral1)
+            if templete[nome_template] == 'TMP_acet' and monomero[nome_monomero] == 'VP_aceto' \
+              and monomero4 == 'VP' and propriedade_geral1 == 'entalpia':
+              graficando_propriedades(interval_temp,
+                                      entalp_TMP_acet_1VP, entalp_qH_TMP_acet_1VP,
+                                      entalp_TMP_acet_2VP, entalp_qH_TMP_acet_2VP,
+                                      entalp_TMP_acet_3VP, entalp_qH_TMP_acet_3VP,
+                                      monomero4, solvente1, templete3, propriedade_geral1)
+
+            # Graficos TMP Diclorometano
+            if templete[nome_template] == 'TMP_dich' and monomero[nome_monomero] == 'ACR_dich' \
+               and monomero1 == 'ACR' and propriedade_geral1 == 'entalpia':
+               graficando_propriedades(interval_temp,
+                                       entalp_TMP_dich_1ACR, entalp_qH_TMP_dich_1ACR,
+                                       entalp_TMP_dich_2ACR, entalp_qH_TMP_dich_2ACR,
+                                       entalp_TMP_dich_3ACR, entalp_qH_TMP_dich_3ACR,
+                                       monomero1, solvente2, templete3, propriedade_geral1)
+            if templete[nome_template] == 'TMP_dich' and monomero[nome_monomero] == 'IA_dichl' \
+              and monomero2 == 'IA' and propriedade_geral1 == 'entalpia':
+              graficando_propriedades(interval_temp,
+                                      entalp_TMP_dich_1IA, entalp_qH_TMP_dich_1IA,
+                                      entalp_TMP_dich_2IA, entalp_qH_TMP_dich_2IA,
+                                      entalp_TMP_dich_3IA, entalp_qH_TMP_dich_3IA,
+                                      monomero2, solvente2, templete3, propriedade_geral1)
+            if templete[nome_template] == 'TMP_dich' and monomero[nome_monomero] == 'MAA_dich' \
+              and monomero3 == 'MAA' and propriedade_geral1 == 'entalpia':
+              graficando_propriedades(interval_temp,
+                                      entalp_TMP_dich_1MAA, entalp_qH_TMP_dich_1MAA,
+                                      entalp_TMP_dich_2MAA, entalp_qH_TMP_dich_2MAA,
+                                      entalp_TMP_dich_3MAA, entalp_qH_TMP_dich_3MAA,
+                                      monomero3, solvente2, templete3, propriedade_geral1)
+            if templete[nome_template] == 'TMP_dich' and monomero[nome_monomero] == 'VP_dichl' \
+              and monomero4 == 'VP' and propriedade_geral1 == 'entalpia':
+              graficando_propriedades(interval_temp,
+                                      entalp_TMP_dich_1VP, entalp_qH_TMP_dich_1VP,
+                                      entalp_TMP_dich_2VP, entalp_qH_TMP_dich_2VP,
+                                      entalp_TMP_dich_3VP, entalp_qH_TMP_dich_3VP,
+                                      monomero4, solvente2, templete3, propriedade_geral1)
+
+            # Graficos  TMP Dimetilsufoxido
+            if templete[nome_template] == 'TMP_dime' and monomero[nome_monomero] == 'ACR_dime' \
+               and monomero1 == 'ACR' and propriedade_geral1 == 'entalpia':
+               graficando_propriedades(interval_temp,
+                                       entalp_TMP_dime_1ACR, entalp_qH_TMP_dime_1ACR,
+                                       entalp_TMP_dime_2ACR, entalp_qH_TMP_dime_2ACR,
+                                       entalp_TMP_dime_3ACR, entalp_qH_TMP_dime_3ACR,
+                                       monomero1, solvente3, templete3, propriedade_geral1)
+            if templete[nome_template] == 'TMP_dime' and monomero[nome_monomero] == 'IA_dimet' \
+               and monomero2 == 'IA' and propriedade_geral1 == 'entalpia':
+               graficando_propriedades(interval_temp,
+                                       entalp_TMP_dime_1IA, entalp_qH_TMP_dime_1IA,
+                                       entalp_TMP_dime_2IA, entalp_qH_TMP_dime_2IA,
+                                       entalp_TMP_dime_3IA, entalp_qH_TMP_dime_3IA,
+                                       monomero2, solvente3, templete3, propriedade_geral1)
+            if templete[nome_template] == 'TMP_dime' and monomero[nome_monomero] == 'MAA_dime' \
+               and monomero3 == 'MAA' and propriedade_geral1 == 'entalpia':
+               graficando_propriedades(interval_temp,
+                                       entalp_TMP_dime_1MAA, entalp_qH_TMP_dime_1MAA,
+                                       entalp_TMP_dime_2MAA, entalp_qH_TMP_dime_2MAA,
+                                       entalp_TMP_dime_3MAA, entalp_qH_TMP_dime_3MAA,
+                                       monomero3, solvente3, templete3, propriedade_geral1)
+            if templete[nome_template] == 'TMP_dime' and monomero[nome_monomero] == 'VP_dimet' \
+               and monomero4 == 'VP' and propriedade_geral1 == 'entalpia':
+               graficando_propriedades(interval_temp,
+                                       entalp_TMP_dime_1VP, entalp_qH_TMP_dime_1VP,
+                                       entalp_TMP_dime_2VP, entalp_qH_TMP_dime_2VP,
+                                       entalp_TMP_dime_3VP, entalp_qH_TMP_dime_3VP,
+                                       monomero4, solvente3, templete3, propriedade_geral1)
+            '''
+            # Graficos TMP Tetraidrofurano
+            if templete[nome_template] == 'TMP_tetr' and monomero[nome_monomero] == 'ACR_tetr' \
+               and monomero1 == 'ACR' and propriedade_geral1 == 'entalpia':
+               graficando_propriedades(interval_temp,
+                                       entalp_TMP_tetr_1ACR, entalp_qH_TMP_tetr_1ACR,
+                                       entalp_TMP_tetr_2ACR, entalp_qH_TMP_tetr_2ACR,
+                                       entalp_TMP_tetr_3ACR, entalp_qH_TMP_tetr_3ACR,
+                                       monomero1, solvente4, templete3, propriedade_geral1)
+            if templete[nome_template] == 'TMP_tetr' and monomero[nome_monomero] == 'IA_tetra' \
+              and monomero2 == 'IA' and propriedade_geral1 == 'entalpia':
+              graficando_propriedades(interval_temp,
+                                      entalp_TMP_tetr_1IA, entalp_qH_TMP_tetr_1IA,
+                                      entalp_TMP_tetr_2IA, entalp_qH_TMP_tetr_2IA,
+                                      entalp_TMP_tetr_3IA, entalp_qH_TMP_tetr_3IA,
+                                      monomero2, solvente4, templete3, propriedade_geral1)
+            if templete[nome_template] == 'TMP_tetr' and monomero[nome_monomero] == 'MAA_tetr' \
+              and monomero3 == 'MAA' and propriedade_geral1 == 'entalpia':
+              graficando_propriedades(interval_temp,
+                                      entalp_TMP_tetr_1MAA, entalp_qH_TMP_tetr_1MAA,
+                                      entalp_TMP_tetr_2MAA, entalp_qH_TMP_tetr_2MAA,
+                                      entalp_TMP_tetr_3MAA, entalp_qH_TMP_tetr_3MAA,
+                                      monomero3, solvente4, templete3, propriedade_geral1)
+            if templete[nome_template] == 'TMP_tetr' and monomero[nome_monomero] == 'VP_tetra' \
+              and monomero4 == 'VP' and propriedade_geral1 == 'entalpia':
+              graficando_propriedades(interval_temp,
+                                      entalp_TMP_tetr_1VP, entalp_qH_TMP_tetr_1VP,
+                                      entalp_TMP_tetr_2VP, entalp_qH_TMP_tetr_2VP,
+                                      entalp_TMP_tetr_3VP, entalp_qH_TMP_tetr_3VP,
+                                      monomero4, solvente4, templete3, propriedade_geral1)
     #print(entalp_CBZ_acet_1MAA)
     #print(entalp_qH_CBZ_acet_1MAA)
     #print(entalp_CBZ_acet_2MAA)
