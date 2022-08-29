@@ -27,10 +27,10 @@ for j, arq1 in enumerate(arquivos_xyz):
         arq_gjf = arq1.replace('xyz', 'gjf')
         nome_mol = arq_gjf.replace('.gjf', '')
 
-        cabecalho_gaussian = f'''%nprocshared=10
-%mem=48gb
+        cabecalho_gaussian = f'''%nprocshared=2
+%mem=4gb
 %chk={nome_mol}
-#p b3lyp/6-311g(d) opt'''
+#p b3lyp/6-31g(d) opt pop=nbo'''
 
         with open(arq_gjf, 'w') as file:
             print(cabecalho_gaussian, end='\n', file=file)
