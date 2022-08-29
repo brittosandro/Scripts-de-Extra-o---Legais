@@ -20,7 +20,6 @@ for i, arq in enumerate(arquivos_pdb):
      subprocess.run(['obabel', f'{arq}', '-O', f'{arq_xyz}'])
 
 arquivos_xyz = glob('*.xyz')
-xyz = slice(7, 48)
 for j, arq1 in enumerate(arquivos_xyz):
     with open(arq1, 'r') as f:
         s_arq = f.read()
@@ -29,7 +28,7 @@ for j, arq1 in enumerate(arquivos_xyz):
         nome_mol = arq_gjf.replace('.gjf', '')
 
         cabecalho_gaussian = f'''%nprocshared=10
-%mem=48
+%mem=48gb
 %chk={nome_mol}
 #p b3lyp/6-311g(d) opt'''
 
@@ -40,7 +39,7 @@ for j, arq1 in enumerate(arquivos_xyz):
             print(end='\n', file=file)
             print('0 1', end='\n', file=file)
             for linha in sim_e_xyz[2:]:
-                print(linha[xyz], end='\n', file=file)
+                print(linha, end='\n', file=file)
             print(end='\n', file=file)
 
 arquivos_gjf = glob('*.gjf')
