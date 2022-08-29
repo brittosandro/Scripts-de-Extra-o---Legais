@@ -1,3 +1,15 @@
+##############################################################################
+#
+#  O objetivo deste script é converter as geometrias de um conjunto de arquivos
+# no formato pdb para um formato xyz e por fim criar inputs gjf para o programa
+# Gaussian.
+#
+#  Os arquivos .pdb estão no diretório corrente e todos serão convertidos para
+# um formato .xyz. Portanto utilizaremos um conjunto de parâmetros específicos
+# para criar os arquivos .gjf como inputs para o programa Gaussian.
+#
+##############################################################################
+
 from glob import glob
 import subprocess
 
