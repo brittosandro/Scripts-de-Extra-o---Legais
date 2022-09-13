@@ -1,4 +1,4 @@
-## Descrição do script ordena_dados_sapt
+## Descrição do script ordena_e_calc_medias_sapt
 
  - O script tem por objetivo extrair dados de um conjunto de cálculos
  realizados a partir do método SAPT. Neste caso em particular realizamos
@@ -10,7 +10,7 @@
  
     simboloMolecula_metodoSAPT_base
  
- - Assim o script ordena_dados_sapt.py lê os arquivos dentro de cada
+ - Assim o script ordena_e_calc_medias_sapt.py lê os arquivos dentro de cada
  diretório e ordena em um dicionário por ordem crescente de energia.
  
  - Em um estudo com 4 moléculas de gases nobres interagindo com uma
@@ -18,3 +18,6 @@
  SAPT, o usuário teria que analisar cerca de 240 arquivos em um 
  conjunto de aproximadamente 30 valores de energia catalogando os
  dados das energias em ordem crescente. O script evita esse esforço.
+ 
+ - Esse script também calcula os valores médios de Re e Energia considerando
+ todas as três interações.
