@@ -11,4 +11,10 @@
     simboloMolecula_metodoSAPT_base
  
  - Assim o script ordena_dados_sapt.py lê os arquivos dentro de cada
- diretório e ordena em um dicionário em ordem crescente de energia.
+ diretório e ordena em um dicionário por ordem crescente de energia.
+ 
+ - Em um estudo com 4 moléculas de gases nobres interagindo com uma
+ molécula de amônia em três sítios distintos, usando os cinco métodos
+ SAPT, o usuário teria que analisar cerca de 240 arquivos em um 
+ conjunto de aproximadamente 30 valores de energia catalogando os
+ dados das energias em ordem crescente. Esse script evita esse esforço.
