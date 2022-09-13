@@ -17,4 +17,4 @@
  molécula de amônia em três sítios distintos, usando os cinco métodos
  SAPT, o usuário teria que analisar cerca de 240 arquivos em um 
  conjunto de aproximadamente 30 valores de energia catalogando os
- dados das energias em ordem crescente. Esse script evita esse esforço.
+ dados das energias em ordem crescente. O script evita esse esforço.
